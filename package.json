@@ -1,0 +1,13 @@
+{
+  "name": "eggy-party-fright-night-escape-data",
+  "version": "1.0.0",
+  "private": true,
+  "description": "蛋仔派对·逃出惊魂夜 数据查询站(前后端分离)",
+  "scripts": {
+    "setup": "cd server && npm install && cd ../web && npm install && cd ../admin && npm install",
+    "seed": "cd server && npm run seed",
+    "server": "cd server && npm start",
+    "web": "cd web && npm run dev",
+    "admin": "cd admin && npm run dev"
+  }
+}

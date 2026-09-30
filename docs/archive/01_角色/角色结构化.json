@@ -1,0 +1,42 @@
+{
+  "dataset": "蛋仔派对-逃出惊魂夜",
+  "cutoff": "2026-09-29",
+  "notes": "公开网页检索资料；current_status字段区分已核验与待补齐，不代表客户端当前全量数据。",
+  "survivors": [
+    {"name":"矿工","code":"卢修斯","role":"挖煤","status":"verified_core"},
+    {"name":"驯兽师","code":"美狄亚","role":"牵制/救援","status":"verified"},
+    {"name":"舞女","code":"莉莉丝","role":"牵制/机动","status":"verified"},
+    {"name":"士兵","code":"托兰","role":"辅助/视野","status":"verified"},
+    {"name":"医生","code":"桑吉斯","role":"治疗/救援","status":"verified"},
+    {"name":"魔术师","code":"克莱蕾","role":"牵制/伪装","status":"verified_core"},
+    {"name":"贵族","code":"多萝西娅","role":"辅助/诱饵","status":"verified"},
+    {"name":"管家","code":"劳埃德","role":"救援/保护","status":"verified"},
+    {"name":"科学家","code":"伊万德","role":"挖煤/支援","status":"verified"},
+    {"name":"爆破师","code":"苏","role":"控制/辅助","status":"verified"},
+    {"name":"报童","code":"米隆","role":"侦查/挖煤","status":"verified"},
+    {"name":"水鬼","code":"伊文","role":"移动/支援","status":"verified_core"},
+    {"name":"猎人","code":"亨特","role":"牵制/控追","status":"verified_core"},
+    {"name":"灵媒","code":"曦","role":"辅助/预言","status":"verified_core"},
+    {"name":"船长","code":"歌萝佩","role":"救援/移动","status":"verified_core"},
+    {"name":"黑拳","code":"瓦格纳","role":"反制/控制","status":"verified"},
+    {"name":"主教","code":"蓝慈","role":"视野控制/保护","status":"verified_core"},
+    {"name":"学生会长","code":"伊拉拉","role":"牵制/辅助","status":"verified_core"},
+    {"name":"炼金师","code":"赫拉","role":"挖煤/进度传递","status":"verified"},
+    {"name":"歌女","code":"小阿娇","role":"辅助/增益","status":"verified_core"},
+    {"name":"行刑官","code":"比努斯","role":"控制/处决","status":"verified_core"},
+    {"name":"画中女郎","code":"贝琳达","role":"待核验","status":"announcement_only"}
+  ],
+  "pursuers": [
+    {"name":"哑女","code":"斯黛拉","role":"近战控制","status":"verified"},
+    {"name":"怨灵小丑","code":"阿巴","role":"高速追击","status":"verified"},
+    {"name":"疯象","code":"莫比","role":"柜子/机动/控场","status":"verified"},
+    {"name":"魔警","code":"艾琳","role":"远程/协同","status":"verified_core"},
+    {"name":"困兽","code":"雷蒙德","role":"近战/能量","status":"verified_core"},
+    {"name":"冥蛇","code":"佩姬","role":"远程/区域控制","status":"verified_core"},
+    {"name":"血衣教师","code":"礼温","role":"吸能/空袭","status":"verified"},
+    {"name":"转校生","code":"桃乐丝","role":"梦境/区域控制","status":"verified_core"},
+    {"name":"少盟主","code":"沈昭","role":"双武器/处决","status":"verified"},
+    {"name":"影爪","code":null,"role":"近战控制","status":"existence_verified_skill_pending"},
+    {"name":"丧心护士","code":null,"role":"追击/干扰","status":"existence_verified_skill_pending"}
+  ]
+}

@@ -1,0 +1,15 @@
+Eggy Party / Escape Fright Night archive
+Cutoff: 2026-09-29
+
+This archive contains:
+00_说明
+01_角色
+02_玩法机制
+03_地图
+04_平衡公告
+05_徽章成长
+06_图像与视频
+07_来源索引
+08_待补齐
+
+Important: not every remote image has been downloaded locally. Image assets in the image index are represented by their public source URL when local retrieval was unavailable.

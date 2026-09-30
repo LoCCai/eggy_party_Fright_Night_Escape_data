@@ -84,7 +84,7 @@ app.get('/api/stats', (_req, res) => {
   const badges = count('badges');
   const patches = count('patches');
 
-  const strengthDist = all('SELECT strength AS name, COUNT(*) AS value FROM chasers GROUP BY strength');
+  const strengthDist = all("SELECT strength AS name, COUNT(*) AS value FROM chasers WHERE strength != '' GROUP BY strength");
   const roleDist = all("SELECT role_type AS name, COUNT(*) AS value FROM escapees WHERE role_type != '' GROUP BY role_type");
   const timeline = all(`
     SELECT substr(release_date, 1, 7) AS month,

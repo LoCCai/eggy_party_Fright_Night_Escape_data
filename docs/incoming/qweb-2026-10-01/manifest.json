@@ -1,0 +1,289 @@
+{
+ "task": "抓取 qweb.icai.top 社区「惊魂夜/逃出惊魂夜」相关帖子并存档",
+ "fetched_at_utc": "2026-10-01T03:37:42Z",
+ "base_url": "https://qweb.icai.top/qweb/api/v1/public/community",
+ "endpoints": {
+  "list": "https://qweb.icai.top/qweb/api/v1/public/community/{source}/posts?page=N&page_size=50&query=<关键词>",
+  "detail": "https://qweb.icai.top/qweb/api/v1/public/community/{source}/posts/{id}?comment_page=1",
+  "media": "https://qweb.icai.top/qweb/api/v1/public/community/media-assets/<asset_id> 或 https://qweb.icai.top/qweb/api/v1/public/community/media/..."
+ },
+ "queries_used": {
+  "惊魂夜": "%E6%83%8A%E9%AD%82%E5%A4%9C",
+  "逃出惊魂夜": "%E9%80%83%E5%87%BA%E6%83%8A%E9%AD%82%E5%A4%9C"
+ },
+ "sources": {
+  "ds": {
+   "available": true,
+   "queries": {
+    "惊魂夜": {
+     "total": 293,
+     "pages": 6,
+     "raw_ids_unique": 293
+    },
+    "逃出惊魂夜": {
+     "total": 177,
+     "pages": 4,
+     "raw_ids_unique": 177
+    }
+   },
+   "unique_posts": 293,
+   "details_merged": 293,
+   "details_missing": 0,
+   "output": "posts-ds.json",
+   "official_posts": 217,
+   "official_announcement_posts": 162
+  },
+  "taptap": {
+   "available": true,
+   "queries": {
+    "惊魂夜": {
+     "total": 194,
+     "pages": 4,
+     "raw_ids_unique": 194
+    },
+    "逃出惊魂夜": {
+     "total": 152,
+     "pages": 4,
+     "raw_ids_unique": 152
+    },
+    "蛋仔派对": {
+     "total": 1991,
+     "scraped": false,
+     "note": "仅探测记录 total,超出「惊魂夜/逃出惊魂夜」任务范围,未抓取"
+    }
+   },
+   "unique_posts": 194,
+   "details_merged": 194,
+   "details_missing": 0,
+   "output": "posts-taptap.json",
+   "official_posts": 0,
+   "official_announcement_posts": 0
+  },
+  "4399": {
+   "available": true,
+   "queries": {
+    "惊魂夜": {
+     "total": 0
+    },
+    "逃出惊魂夜": {
+     "total": 0
+    },
+    "蛋仔派对": {
+     "total": 0
+    }
+   },
+   "unique_posts": 0,
+   "output": "posts-4399.json",
+   "note": "接口正常返回(total=0),但三个 query 均无命中,无可抓取内容"
+  }
+ },
+ "dedup": {
+  "strategy": "按源内帖子 id 去重(两个 query 的并集);ds 与 taptap 的 id 空间独立,未跨源合并",
+  "ds": {
+   "queries": {
+    "ds-jinghongye": {
+     "pages": 7,
+     "raw_ids": 293,
+     "raw_ids_unique": 293,
+     "api_total": 293
+    },
+    "ds-taochu": {
+     "pages": 5,
+     "raw_ids": 177,
+     "raw_ids_unique": 177,
+     "api_total": 177
+    }
+   },
+   "unique": 293
+  },
+  "taptap": {
+   "queries": {
+    "taptap-jinghongye": {
+     "pages": 5,
+     "raw_ids": 194,
+     "raw_ids_unique": 194,
+     "api_total": 194
+    },
+    "taptap-taochu": {
+     "pages": 5,
+     "raw_ids": 152,
+     "raw_ids_unique": 152,
+     "api_total": 152
+    }
+   },
+   "unique": 194
+  }
+ },
+ "comments": "详情接口附带评论第一页(comment_page=1),已随详情一并并入 posts-*.json;未翻页抓全部评论",
+ "images": {
+  "dir": "/tmp/qweb_images",
+  "manifest": "/tmp/qweb_images/manifest-images.json",
+  "in_repo": false,
+  "selection_rule": "author.nickname=='蛋仔派对'(或 identity 含「官方」)且 title/summary/body_text 命中公告类关键词(更新/维护/公告/版本/平衡/赛季/上线/修复/新增/调整/优化/前瞻/爆料/预告/解封/活动/福利/礼包/返场/周年)",
+  "limits": {
+   "total": 300,
+   "per_post": 12
+  },
+  "downloaded": 300,
+  "failed": 0,
+  "official_announcement_posts": {
+   "ds": {
+    "official_posts": 217,
+    "official_announcement_posts": 162
+   },
+   "taptap": {
+    "official_posts": 0,
+    "official_announcement_posts": 0
+   }
+  }
+ },
+ "detail_failures": 0,
+ "samples": {
+  "list_item_ds": {
+   "source": "ds",
+   "id": "6aba1c42323d8e49cdcba4dc",
+   "type": "2",
+   "title": "",
+   "summary": "每一个角色，都藏着未被揭晓的另一面，换一个视角，或许能感受到不一样的魅力。马戏团全员右系成长分支解锁，邀你体验不同的技能成长路径，感受角色的第二人生！ ▸ 9月29日（周二）更新维护完毕后，“逃出惊魂夜”即将迎来版本平衡性改动。此外，马戏团全员解锁右系局内成长：对应逃生者升级，或追捕者升至5级时，可以手动选择自己想要的升级分支。 ▸ 巅峰2v8模式全新赛季将于10月2日（周五）18:00开启。 ▸ 绿雾弥漫，一些未被想起的过往即将陆续揭开。「档案解封计划」正式启动，首个解封档案：舞女莉莉丝，10月5日敬请期待！ #蛋仔派对# #蛋仔派对逃出惊魂夜# #逃...",
+   "cover_url": "/qweb/api/v1/public/community/media-assets/473aa6d0-84fc-4565-a2be-d4731c181571",
+   "cover_fallback_url": null,
+   "author": {
+    "id": "f286ea88872c4273a283cd9d8f3f7068",
+    "nickname": "蛋仔派对",
+    "avatar_url": "/qweb/api/v1/public/community/media/ds/avatars/4edb672678d471552394e787b8cfc7e6.jpg",
+    "avatar_fallback_url": "https://ok.166.net/reunionpub/3_20260921_1a0c2d675a4741810.jpeg",
+    "intro": "咔咔~欢迎各位光临蛋仔岛！(*╹▽╹*)",
+    "region": "浙江",
+    "identity": "《蛋仔派对》官方号"
+   },
+   "source_url": "https://ds.163.com/feed/6aba1c42323d8e49cdcba4dc",
+   "region": "浙江",
+   "game_name": null,
+   "square_name": null,
+   "view_count": 0,
+   "like_count": 6,
+   "comment_count": 6,
+   "share_count": 1,
+   "favorite_count": 0,
+   "word_count": 276,
+   "reading_minutes": 1,
+   "image_count": 9,
+   "video_count": 0,
+   "content_status": "ready",
+   "comment_status": "ready",
+   "detail_status": "ready",
+   "media_status": "ready",
+   "discovered_at": "2026-09-28T07:50:36.186938+00:00",
+   "detail_ready_at": "2026-09-30T13:17:41.988788+00:00",
+   "media_ready_at": "2026-09-30T13:17:41.988788+00:00",
+   "content_available": true,
+   "published_at": "2026-09-28T07:50:19.773000+00:00",
+   "updated_at": "2026-09-30T13:17:42.010623+00:00",
+   "retention": null
+  },
+  "list_item_taptap": {
+   "source": "taptap",
+   "id": "853662610170578477",
+   "type": "post",
+   "title": "【逃出惊魂夜】新赛季版本改动详解",
+   "summary": "每一个角色，都藏着未被揭晓的另一面，换一个视角，或许能感受到不一样的魅力。马戏团全员右系成长分支解锁，邀你体验不同的技能成长路径，感受角色的第二人生！\n▸ 9月29日（周二）更新维护完毕后，“逃出惊魂夜”即将迎来版本平衡性改动。此外，马戏团全员解锁右系局内成长：对应逃生者升级，或追捕者升至5级时，可以手动选择自己想要的升级分支。\n▸ 巅峰2v8模式全新赛季将于10月2日（周五）18:00开启。\n▸ 绿雾弥漫，一些未被想起的过往即将陆续揭开。「档案解封计划」正式启动，首个解封档案：舞女莉莉丝，10月5日敬请期待！\n#蛋仔派对   #蛋仔派对逃出惊魂夜   #逃出惊魂夜",
+   "cover_url": "/qweb/api/v1/public/community/media-assets/04e0398e-12c0-4c25-aad1-827c6ee93588",
+   "cover_fallback_url": "https://img2-tc.tapimg.com/moment/etag/Fri9dVcPeL7BKNSchsObtEoUVhMQ_20260928160237.png",
+   "author": {
+    "id": "326423999",
+    "nickname": "蛋仔",
+    "avatar_url": "/qweb/api/v1/public/community/media/taptap/avatars/f2f53657cf9ee3ff2512aba054c03a67.jpg",
+    "avatar_fallback_url": "https://img3-tc.tapimg.com/avatars/c880abaad5c204c4a69dab0830c394fb.png/_tap_avatar.jpg",
+    "intro": null,
+    "region": null,
+    "identity": null
+   },
+   "source_url": "https://www.taptap.cn/moment/853662610170578477",
+   "region": null,
+   "game_name": "蛋仔派对",
+   "square_name": null,
+   "view_count": 177,
+   "like_count": 6,
+   "comment_count": 7,
+   "share_count": 0,
+   "favorite_count": 0,
+   "word_count": 273,
+   "reading_minutes": 1,
+   "image_count": 9,
+   "video_count": 0,
+   "content_status": "ready",
+   "comment_status": "ready",
+   "detail_status": "ready",
+   "media_status": "ready",
+   "discovered_at": "2026-09-28T07:51:04.000024+00:00",
+   "detail_ready_at": "2026-09-28T22:18:35.645569+00:00",
+   "media_ready_at": "2026-09-28T22:18:36.275705+00:00",
+   "content_available": true,
+   "published_at": "2026-09-28T07:50:26+00:00",
+   "updated_at": "2026-09-29T09:56:51.332572+00:00",
+   "retention": null
+  },
+  "detail_ds": {
+   "endpoint": "https://qweb.icai.top/qweb/api/v1/public/community/ds/posts/6aba1c42323d8e49cdcba4dc?comment_page=1",
+   "top_keys": [
+    "comment_page",
+    "comment_page_size",
+    "comment_total",
+    "comments",
+    "post"
+   ],
+   "post_keys": [
+    "author",
+    "body_text",
+    "comment_count",
+    "comment_status",
+    "content_available",
+    "content_blocks",
+    "content_status",
+    "cover_fallback_url",
+    "cover_url",
+    "detail_ready_at",
+    "detail_status",
+    "discovered_at",
+    "favorite_count",
+    "game_name",
+    "id",
+    "image_count",
+    "like_count",
+    "media_ready_at",
+    "media_status",
+    "metadata",
+    "published_at",
+    "reading_minutes",
+    "region",
+    "retention",
+    "share_count",
+    "source",
+    "source_url",
+    "square_name",
+    "summary",
+    "title",
+    "type",
+    "updated_at",
+    "video_count",
+    "view_count",
+    "word_count"
+   ],
+   "content_block_types": [
+    "text",
+    "image",
+    "image",
+    "image",
+    "image",
+    "image",
+    "image",
+    "image",
+    "image",
+    "image"
+   ],
+   "body_text_first_200": "每一个角色，都藏着未被揭晓的另一面，换一个视角，或许能感受到不一样的魅力。马戏团全员右系成长分支解锁，邀你体验不同的技能成长路径，感受角色的第二人生！\n▸ 9月29日（周二）更新维护完毕后，“逃出惊魂夜”即将迎来版本平衡性改动。此外，马戏团全员解锁右系局内成长：对应逃生者升级，或追捕者升至5级时，可以手动选择自己想要的升级分支。\n▸ 巅峰2v8模式全新赛季将于10月2日（周五）18:00开启。\n▸",
+   "comment_total": 6
+  }
+ },
+ "reproduce": "bash fetch.sh(同目录;可用 QWEB_OUT_DIR / QWEB_IMG_DIR / QWEB_MAX_IMAGES / QWEB_MAX_PER_POST 覆盖)"
+}

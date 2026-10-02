@@ -16,6 +16,21 @@ eggy_party_Fright_Night_Escape_data/
 └── docs/       # 数据来源说明与官方公告检索归档(docs/archive/)
 ```
 
+## 生产部署(docker compose,与服务器其他服务统一管理)
+
+栈配置在 `/home/ccai/docker/fright-night/docker-compose.yml`,构建文件随仓库(Dockerfile/nginx.conf 在 server、web、admin 目录),数据卷在 `~/docker/fright-night/server-data/`(SQLite):
+
+| 服务 | 地址(0.0.0.0) | 说明 |
+|---|---|---|
+| 玩家端 | http://<主机IP>:10020 | nginx 静态托管 + `/api` 反代 |
+| 管理面板 | http://<主机IP>:10021 | 同上,端口顺延家里 100XX 惯例 |
+| 后端 API | http://<主机IP>:10022 | node:22-alpine,`restart: always` 自愈自启 |
+
+```bash
+cd /home/ccai/docker/fright-night && docker compose up -d --build
+```
+首次启动若数据卷为空会自动执行种子写入;`docker compose pull` + `up -d` 即可更新。
+
 ## 快速启动
 
 ```bash
@@ -46,7 +61,7 @@ npm run admin          # 管理面板  → http://localhost:5174
 - **版本动态**(29 条):2024-08 ~ 2026-09 的新角色 / 新地图 / 平衡调整时间线
 - **数据分析**:阵营构成、新角色上线时间线、逃生者定位分布、地图元素类型统计(ECharts)
 
-### 管理面板(admin,http://localhost:5174)
+### 管理面板(admin,http://localhost:10021)
 - JWT 登录(默认 `admin / admin123`,可修改密码)
 - 追捕者 / 逃生者管理:新增、编辑(含技能条目动态编辑)、删除
 - 地图管理:地图 CRUD + **元素管理抽屉**(每张地图可维护任意数量的专属元素)

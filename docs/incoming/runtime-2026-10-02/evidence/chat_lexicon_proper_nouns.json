@@ -1,0 +1,1746 @@
+[
+ {
+  "type": "PROPER_NOUN",
+  "name": "宝子蛋",
+  "aliases": [
+   "西皮",
+   "CP",
+   "恋人蛋",
+   "CPDD",
+   "CPdD",
+   "CPDd",
+   "CpDD",
+   "CpdD",
+   "CpDd",
+   "cpDD",
+   "cpdD",
+   "cPDd",
+   "cp",
+   "Cp",
+   "CP"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "碰碰蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "敲敲蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "漂泊蛋",
+  "aliases": [
+   "回归蛋"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "新手蛋",
+  "aliases": [
+   "萌新蛋",
+   "小苗蛋"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "开麦蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "开黑蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "乐园蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "大佬蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "闺蜜蛋",
+  "aliases": [
+   "闺蜜"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "死党蛋",
+  "aliases": [
+   "死党"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "挚友蛋",
+  "aliases": [
+   "挚友"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "宝宝蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "早八蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "打工蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛋贩子"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "职业蛋",
+  "aliases": [
+   "电竞蛋"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "老六蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "速八"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "速六"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "超级起步",
+  "aliases": [
+   "跳丢"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "高抛起步",
+  "aliases": [
+   "高抛"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "低抛起步",
+  "aliases": [
+   "低抛"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "滚雷"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "双刀"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "三刀"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "温泉蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "菜蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "身法蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "跳扑"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "默契大挑战"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "一抱",
+  "aliases": [
+   "底抱"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "二抱"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "三抱"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "四抱"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "顶抱"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "e蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "i蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛋搭子",
+  "aliases": [
+   "蛋搭",
+   "蛋挞子"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "巅峰派对",
+  "aliases": [
+   "巅峰"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "扑刀",
+  "aliases": [
+   "踢刀"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "滚刀"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "尾刀"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "野排"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "掉分"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "滴滴",
+  "aliases": [
+   "dd",
+   "滴"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "兜兜龙",
+  "aliases": [
+   "龙车",
+   "龙龙车"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "裸蛋",
+  "aliases": [
+   "原皮"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "单挑"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "疯狂乱斗"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛋仔擂台赛",
+  "aliases": [
+   "擂台",
+   "擂台大作战"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "下棋",
+  "aliases": [
+   "五子棋",
+   "斗兽棋",
+   "黑白棋",
+   "记忆卡牌",
+   "鲨鱼牙齿"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "狂欢星期六",
+  "aliases": [
+   "疯狂星期六"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "揪出捣蛋鬼",
+  "aliases": [
+   "捣蛋鬼"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "发金水"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "面刀"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "开灯牌",
+  "aliases": [
+   "开灯蛋"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "卡视角"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "对跳"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "归票位",
+  "aliases": [
+   "末置位"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "全票打飞"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "场外"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "岛屿捉迷藏"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "黑屋",
+  "aliases": [
+   "赛季小屋",
+   "隐藏空间"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "麻袋追击战",
+  "aliases": [
+   "麻袋大逃亡"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "绿皮"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "彩皮"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "紫皮"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蓝皮"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛋战四方盛典",
+  "aliases": [
+   "四人锦标赛",
+   "蛋战四方"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛋仔冲冲冲",
+  "aliases": [
+   "个人锦标赛"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "超燃竞技场",
+  "aliases": [
+   "超燃"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "南瓜入侵"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "地图集"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "大腿蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "亲友蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "怨灵小丑",
+  "aliases": [
+   "小丑阿巴"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "疯象",
+  "aliases": [
+   "莫比"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "哑女",
+  "aliases": [
+   "斯黛拉"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "矿工"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "士兵"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "舞女"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "驯兽师"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "医生"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "逃出惊魂夜",
+  "aliases": [
+   "惊魂夜"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "特种蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "艾比"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "燃料"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "艾比球"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "抚摸艾比"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "艾比切磋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "偷菜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "薄荷果"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "最佳拍档"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "魔术师"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "贵族"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "DongDong",
+  "aliases": [
+   "咚咚羊",
+   "小羊"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "鸭鸭DongDong",
+  "aliases": [
+   "鸭鸭咚",
+   "鸭鸭羊"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蜜蜂DongDong",
+  "aliases": [
+   "蜜蜂咚",
+   "蜜蜂羊",
+   "羊蜜"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "淘气丸子",
+  "aliases": [
+   "JK妹",
+   "鸡块妹"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "元气丸子",
+  "aliases": [
+   "鸡块姐"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "仔仔熊",
+  "aliases": [
+   "小熊"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "失心熊",
+  "aliases": [
+   "变异小熊"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "仓鼠米仔",
+  "aliases": [
+   "仓鼠",
+   "仓鼠妹",
+   "米仔"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "饶舌诗人",
+  "aliases": [
+   "rapper",
+   "说唱歌手"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "甜梦热牛奶",
+  "aliases": [
+   "小奶瓶",
+   "奶瓶"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛋小黄",
+  "aliases": [
+   "小黄",
+   "黄蛋"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛋小粉",
+  "aliases": [
+   "小粉",
+   "粉蛋"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛋小蓝",
+  "aliases": [
+   "小蓝",
+   "蓝蛋"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛋小绿",
+  "aliases": [
+   "小绿",
+   "绿蛋"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛋小黑",
+  "aliases": [
+   "小黑",
+   "黑蛋"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛋小红",
+  "aliases": [
+   "小红",
+   "红蛋"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛋仔六小只",
+  "aliases": [
+   "六小只"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "兔萝萝"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "爆爆狐"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "水捏捏"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "米亚"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "嗖嗖貂"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "迷幻蝶"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蕉绿鸭"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "弹簧喵"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "电电蛛"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "冰山龟"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "绿叶蜥"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "焦火菇"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "石灵巨人"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "炸毛驼"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "恶魔喵妮"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "萤火蜗"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "花果猪"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "艾思灵"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "迪蹦蹦"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "火山龟"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "火辣鸡"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "睡袋熊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "希利亚斯"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "咖啡水母"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "眠眠云"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "针叶螳螂"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "鲸雷"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "橘蝠猫"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "巴巴豚"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "陆行鲨"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "椰子鹈鹕"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "麻将桌",
+  "aliases": [
+   "麻将"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "魔警",
+  "aliases": [
+   "魔警艾琳",
+   "艾琳"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "管家",
+  "aliases": [
+   "劳埃德"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "大蒜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "土豆"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "苹果"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "橙子"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "稻子"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "红辣椒"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "菠萝"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "黄瓜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "泥号菜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "芒果"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "白萝卜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "梨"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "玉米"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "柠檬"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "卷心菜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "葱"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "石榴"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "甜椒"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "知风蓝铃"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "桃子"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "姜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "樱桃"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "紫甘蓝"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "火龙果"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "洋葱"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "紫葡萄"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "胡萝卜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "美梦灯笼"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "茄子"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "西瓜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "番茄"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "豌豆"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "草莓"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "百合"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "麦子"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "青菜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "薰衣草"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "毒牙蕨"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "冬瓜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "香菇"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "哈密瓜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "客服",
+  "aliases": [
+   "客户服务",
+   "反馈"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "彩虹币",
+  "aliases": [
+   "彩虹货币",
+   "货币-彩虹币"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "互赞",
+  "aliases": [
+   "主页点赞"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "丧丧苔球"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "火树仔"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛮拳章鱼"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "美螺螈螈"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "石板板"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "海兰蒂斯"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "贝雷塔"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "猎人",
+  "aliases": [
+   "亨特"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "爆破师",
+  "aliases": [
+   "苏"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "报童",
+  "aliases": [
+   "米隆"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "互评",
+  "aliases": [
+   "留言"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "美乐蒂",
+  "aliases": [
+   "Melody"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "凯蒂猫",
+  "aliases": [
+   "凯蒂",
+   "Kitty"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "白菜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蓝莓"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "竹笋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "花椰菜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "玫瑰"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "鸡枞菇"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "风车菊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "豆角"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "丝瓜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛇尾犬"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "清露果"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "水灵鹿",
+  "aliases": [
+   "鹿"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "莲蓬蛙"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "困兽",
+  "aliases": [
+   "雷蒙德"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "魔音沙鳗"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "尖果鸟"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "花莉朵"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "百特蝠"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "锤头獾"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "玩法码"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "地图码"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "奶龙"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "影蛛台"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "吞吞兽"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蜜罐熊蜂"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "光球鼠"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "阿罗斯"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "灯笼小妖"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "幽灵浣熊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "熔岩巨人"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "冥蛇",
+  "aliases": [
+   "佩姬"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蜜瓜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "灵芝"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "猫铃铛草"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "芋头"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "阳光玫瑰"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "无花果"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "西蓝花"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "杨桃"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "葫芦"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "腰果"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "二荆条"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "甘蔗"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "白菜狗"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "向日葵电狸"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "鳄碰碰"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "沼泽河牛"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "丧心护士",
+  "aliases": [
+   "护士",
+   "海瑟"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "枫洛可"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "霞光鱼"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "星云狮"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛋壳"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "科学家",
+  "aliases": [
+   "伊万德"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "水鬼",
+  "aliases": [
+   "伊文"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "黑拳",
+  "aliases": [
+   "瓦格纳"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "船长",
+  "aliases": [
+   "歌萝佩"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "灵媒"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "花花鸭"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "暖暖犀牛"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "信物"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "爆柠蛙"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "菠萝啾"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "舒芙云"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "滑梯象"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "血衣教师",
+  "aliases": [
+   "教师",
+   "礼温",
+   "吸血鬼"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "软糖熊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "霜糖蛤蜊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "鹿啵啵"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "甜筒橙橙"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "薄荷蛤蜊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蟹味菇"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "苹果鹈鹕"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "毒毒菇"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蓝莓蜗"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "乌骨鸡"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "白羽鸡"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "畜牧玩法",
+  "aliases": [
+   "牧场"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "虎斑鸡"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "走地鸡"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "摇滚不停鸡"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "黑白花奶牛"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "娟珊牛"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "大黑牛"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "三河牛"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "态度牛牛"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "晕晕羊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "阿勒泰羊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "沸脸羊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "贝尔羊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "和田羊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "小黄鸭"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "黑鸭"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "灰鸭"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "绿头鸭"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "岛勒鸭"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "奥布"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "甜筒莓莓"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "枣红马"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "银鬃马"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "弗里斯马"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "斑点马"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "绮姆丽马"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "荔墩墩"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蜂堡包"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "麦麦驼"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "海苔猪"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "锅铠龟"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "极电鸟"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "辣辣蛤蜊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "薯沙鳗"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蛛蛛糕"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "羞羞糖球"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "电蕉鲨"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "暴龙虾饺"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "酸糖蛤蜊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "甜甜雀"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "小幽灵"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "骨蜘蛛"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "布丁姆姆"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "偷偷猫"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "糯米鼬"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "咪莉娜"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蜜流姬"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "影爪",
+  "aliases": [
+   "梵蒂娅"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "香肠犬"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "夜行兔狲"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "奇乐米"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "主教",
+  "aliases": [
+   "蓝慈"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "织羽灵蝶"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "茸茸兔"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "学生会长",
+  "aliases": [
+   "伊拉拉"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "转校生",
+  "aliases": [
+   "桃乐丝"
+  ]
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "奥晶巨人"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "枫叶灵"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "芬里尔"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "躲躲熊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "蝠运猫"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "奥音蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "森狐"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "伪装鸭"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "龙角菇"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "章鱼烧"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "丽芙卡"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "爆音花"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "鬼灯蛙"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "秋柚仔"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "力士牛"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "浊音蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "炎凤蝶"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "碧琪"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "珍珠海狮"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "艾思伊"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "矿晶蝠"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "绒绒兽"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "燃拳袋鼠"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "祈音蛋"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "雪人王"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "叮咚鸡"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "艾思厄"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "没牙仔"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "海盗水獭"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "美情兔"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "轰雷球"
+ },
+ {
+  "type": "PROPER_NOUN",
+  "name": "乌云团"
+ }
+]

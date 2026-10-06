@@ -1,0 +1,58 @@
+{
+  "collection": "eggy_party_Fright_Night_Escape_data / docs / incoming / runtime-2026-10-02",
+  "created": "2026-10-06",
+  "source": {
+    "zip": "/root/.zcode/tmp/prompt-attachments/remote-ssh-192.168.31.193-52122-root-home-ccai-e228c19f-3446-4c59-b254-503109a1d/500356f9-e0e1-4c8e-a74e-72d4d7557c2a/01-files.zip",
+    "zip_bytes": 5845158103,
+    "extracted_to": "/home/eggy-test/extracted (工作区,不入库)",
+    "extracted_files": 892,
+    "extracted_bytes": "5.5 GiB",
+    "device_path_in_log": "/storage/emulated/0/Android/data/com.netease.party/files/",
+    "sessions_in_log": ["2026-09-14 19:54-20:04", "2026-10-06 18:44-19:01"]
+  },
+  "versionInfo": {
+    "app": "com.netease.party (蛋仔派对)",
+    "app_id_neox": "303735",
+    "channel": "common_appchannel (JF_GAMEID=u5)",
+    "local_package_ver_file": "files/NeoX/Documents/package_ver = 295",
+    "local_res_version": "4343784 (clear_record_ver; 与 CDN 当前一致)",
+    "local_script_npk": "295_202609092136_script.npk (80,595,048 B, 与 CDN extra_npk 295 尺寸一致)",
+    "local_script_patch_npk": "426,436 B == CDN 当前 script_patch.npk (md5 e6044480dafbaf31fe2cebc800552aa4)",
+    "engine_from_user_data_xml": "1788841401 / version 4272672",
+    "cdn_current_20261006": {
+      "url": "https://u5.update.netease.com/pl/npk_version_android.txt",
+      "version": "patch_android_202609282002_4343784",
+      "res_rev": "4343784",
+      "script_rev": "4343531",
+      "script_patch_rev": "4332177",
+      "engine_ver": "1789356316",
+      "package_version": "1.0.299",
+      "npkext_ver": "npkext_android_202609281954_4343784"
+    },
+    "filelist_txt": "NeoX 根文件 md5 清单(16 项,含 res/npk_file_full_info_bin)",
+    "init_bm": "1,506,628 B 二进制分块清单: 头部 u32 1067/353, 353 条 4264 B 记录+1428 B 尾, 记录内 0x6F0 偏移处少量状态字节 — 下载分块位图,非文件名清单"
+  },
+  "deliverables": [
+    "npk_format_analysis.md — NPK/NXPK/PZ$E/G$MZ 格式与加密分析(zstd 帧链破解 + 表加密不可解结论)",
+    "subpackage_mapping.md — 玩法包映射表与「逃出惊魂夜=jinghun_identity_v/package_key 25,本设备未下载」结论(日志证据)",
+    "keyword_hits.md — 全量关键词命中与零命中清单",
+    "orbit_tmp_analysis.md — 12 个 .orbit.tmp 断点包完整度标注 + game_plays_17 完整性判定",
+    "evidence/game_notice_other_channel_20260929.md — 官方公告全文(逃出惊魂夜玩法更新/平衡调整:礼温 4.6s/3次、歌女1v4 6/8/12 等)",
+    "evidence/hotfix_623479_balance_text.md — 超燃系列平衡调整全文(丧心护士海瑟:失血引爆150%、痛楚领域距离提升等)",
+    "evidence/chat_lexicon_proper_nouns.json — 官方词库 368 条专名(影爪=梵蒂娅、丧心护士=海瑟等角色映射)",
+    "evidence/ccmini_leveldb_dump.md — ccmini 三个 leveldb 全量键值(语音 SDK 配置,无玩法配置)",
+    "evidence/fright_night_common_ogc_hotfix_data.bin — fshotfix_v3 中 fright_night_common OGC 热更附属数据(解密 zstd 后)",
+    "evidence/client_hotfix_v1 / fshotfix_v3 — 原始热更缓存副本",
+    "evidence/ext_packer_game_plays_7.walk.json / _17.walk.json — 解包帧清单样例",
+    "scripts/npk_zstd_walker.py — NPK zstd 帧遍历器(核心可复现脚本)",
+    "scripts/fshotfix_extract2.py — 热更 msgpack/marshal/zstd 提取器",
+    "scripts/ldbdump.py — 无依赖 LevelDB 读取器"
+  ],
+  "keyFindings": [
+    "逃出惊魂夜内部代号 jinghun_identity_v(package_key 25);本设备未下载其玩法包,457MB game_plays_7 实为惊魂寻宝队(jinghunduobaodui,key32)——纠正了任务假设",
+    "game_plays npk 数据区 = 未加密 zstd 帧链,已全量解包 26,000+ 资源文件(惊魂夜包不在其中)",
+    "script.npk/script_patch.npk 数据与 NXPK 文件表均加密(密钥在原生库 pkg_decrypt),如实记录为不可解",
+    "官方公告(9/29)含惊魂夜平衡性数值:礼温血月潮引 4.6s/猩红日蚀 3 次、歌女 1v4 江南旧忆 6/8/12 等",
+    "任务缺口「海瑟失血秒伤/痛楚领域数值、影爪迅影索次数/暗影能量上限、歌女念奴娇超时」在运行时备份中不存在对应数据;迅影索/念奴娇/暗影能量/爆米花 0 命中"
+  ]
+}

@@ -11,6 +11,10 @@
  *     characters.json;惊魂寻宝队「苏织的心愿」/苍蓝龙拳/巫山之月补录 patches)与
  *     官方大神 09-28 帖(巅峰2v8新赛季 10-02 预告、「档案解封计划」10-05),
  *     社区抓取存档 docs/incoming/qweb-2026-10-01/,来源明细见 docs/data-sources.md
+ *  5. 2026-10-06 运行时热更数据备份研判:设备 http_cache 09-29 公告缓存与库内 patches
+ *     2026-09-29 条目逐项一致(confirmed 级双来源);characters.json 据此补 6 名角色
+ *     「2026-09-29官方调整」技能注记(礼温/艾琳/雷蒙德/蓝慈/赫拉/斯黛拉),patches 同条目
+ *     补录蛋仔城线索;证据与脚本 docs/incoming/runtime-2026-10-02/,来源明细见 docs/data-sources.md 第 9 节
  * 数据文件位于 src/data/,可通过管理面板继续修订。
  */
 import fs from 'node:fs';
@@ -24,9 +28,12 @@ const DATA = (p) => JSON.parse(fs.readFileSync(path.resolve(__dirname, 'data', p
 const characters = DATA('characters.json');
 const patchesSrc = DATA('patches.json');
 const badgesSrc = DATA('badges.json');
-const archiveRoles = JSON.parse(
-  fs.readFileSync(path.resolve(__dirname, '../../docs/archive/01_角色/角色结构化.json'), 'utf-8')
-);
+// docs/archive 相对路径兼容两种布局:仓库内(server/src → 仓库根/docs/archive)与
+// 容器内(/app/src → /app/docs/archive,Dockerfile 把 server/src 拷到 ./src)
+const ARCHIVE_REL = ['../../docs/archive/01_角色/角色结构化.json', '../docs/archive/01_角色/角色结构化.json'];
+const archiveFile = ARCHIVE_REL.map((p) => path.resolve(__dirname, p)).find((p) => fs.existsSync(p));
+if (!archiveFile) throw new Error('找不到 docs/archive/01_角色/角色结构化.json(尝试: ' + ARCHIVE_REL.join(' , ') + ')');
+const archiveRoles = JSON.parse(fs.readFileSync(archiveFile, 'utf-8'));
 
 /** 角色上线日期:官方公告 + 归档平衡时间线 */
 const RELEASE_DATES = {

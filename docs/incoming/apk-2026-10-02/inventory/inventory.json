@@ -1,0 +1,305 @@
+{
+  "apk_root": "/tmp/eggyapk/apk",
+  "file_count": 5377,
+  "total_bytes": 2414256313,
+  "by_extension": {
+    ".npk": {
+      "count": 11,
+      "bytes": 1893429760
+    },
+    ".so": {
+      "count": 137,
+      "bytes": 419295732
+    },
+    ".dex": {
+      "count": 12,
+      "bytes": 48363788
+    },
+    ".dat": {
+      "count": 9,
+      "bytes": 11945020
+    },
+    ".json": {
+      "count": 28,
+      "bytes": 9190132
+    },
+    ".png": {
+      "count": 1277,
+      "bytes": 7002083
+    },
+    "(noext)": {
+      "count": 80,
+      "bytes": 4562112
+    },
+    ".xml": {
+      "count": 3715,
+      "bytes": 4099732
+    },
+    ".model": {
+      "count": 5,
+      "bytes": 3718480
+    },
+    ".arsc": {
+      "count": 1,
+      "bytes": 3710088
+    },
+    ".jar": {
+      "count": 1,
+      "bytes": 2048407
+    },
+    ".bin": {
+      "count": 5,
+      "bytes": 1835246
+    },
+    ".mp3": {
+      "count": 11,
+      "bytes": 1258815
+    },
+    ".gif": {
+      "count": 6,
+      "bytes": 623098
+    },
+    ".sf": {
+      "count": 1,
+      "bytes": 618351
+    },
+    ".mf": {
+      "count": 1,
+      "bytes": 618227
+    },
+    ".tnnmodel": {
+      "count": 4,
+      "bytes": 570245
+    },
+    ".apk": {
+      "count": 3,
+      "bytes": 459991
+    },
+    ".tflite": {
+      "count": 1,
+      "bytes": 242928
+    },
+    ".properties": {
+      "count": 4,
+      "bytes": 106493
+    },
+    ".gz": {
+      "count": 3,
+      "bytes": 102000
+    },
+    ".npk_hash_list": {
+      "count": 2,
+      "bytes": 94720
+    },
+    ".proto": {
+      "count": 12,
+      "bytes": 90177
+    },
+    ".zip": {
+      "count": 1,
+      "bytes": 70778
+    },
+    ".jpg": {
+      "count": 3,
+      "bytes": 58079
+    },
+    ".lst": {
+      "count": 1,
+      "bytes": 42148
+    },
+    ".kotlin_builtins": {
+      "count": 7,
+      "bytes": 24359
+    },
+    ".lic": {
+      "count": 2,
+      "bytes": 23645
+    },
+    ".tnnproto": {
+      "count": 4,
+      "bytes": 12488
+    },
+    ".ogg": {
+      "count": 1,
+      "bytes": 12237
+    },
+    ".data": {
+      "count": 3,
+      "bytes": 9809
+    },
+    ".txt": {
+      "count": 6,
+      "bytes": 6422
+    },
+    ".webp": {
+      "count": 5,
+      "bytes": 3154
+    },
+    ".js": {
+      "count": 2,
+      "bytes": 3000
+    },
+    ".html": {
+      "count": 2,
+      "bytes": 2157
+    },
+    ".rsa": {
+      "count": 1,
+      "bytes": 1370
+    },
+    ".ini": {
+      "count": 3,
+      "bytes": 641
+    },
+    ".rule": {
+      "count": 1,
+      "bytes": 139
+    },
+    ".autodiscoverable": {
+      "count": 1,
+      "bytes": 59
+    },
+    ".messagebodywriter": {
+      "count": 1,
+      "bytes": 51
+    },
+    ".providers": {
+      "count": 1,
+      "bytes": 51
+    },
+    ".messagebodyreader": {
+      "count": 1,
+      "bytes": 51
+    },
+    ".prof": {
+      "count": 1,
+      "bytes": 25
+    },
+    ".profm": {
+      "count": 1,
+      "bytes": 25
+    }
+  },
+  "by_top_dir": {
+    "assets": {
+      "count": 183,
+      "bytes": 1931824598
+    },
+    "lib": {
+      "count": 134,
+      "bytes": 415787236
+    },
+    "res": {
+      "count": 5009,
+      "bytes": 12805815
+    },
+    "classes.dex": {
+      "count": 1,
+      "bytes": 6441156
+    },
+    "classes8.dex": {
+      "count": 1,
+      "bytes": 4130240
+    },
+    "classes10.dex": {
+      "count": 1,
+      "bytes": 4082172
+    },
+    "classes11.dex": {
+      "count": 1,
+      "bytes": 4007316
+    },
+    "classes9.dex": {
+      "count": 1,
+      "bytes": 4000236
+    },
+    "classes12.dex": {
+      "count": 1,
+      "bytes": 3976612
+    },
+    "classes7.dex": {
+      "count": 1,
+      "bytes": 3828932
+    },
+    "classes2.dex": {
+      "count": 1,
+      "bytes": 3800948
+    },
+    "resources.arsc": {
+      "count": 1,
+      "bytes": 3710088
+    },
+    "classes5.dex": {
+      "count": 1,
+      "bytes": 3645976
+    },
+    "classes6.dex": {
+      "count": 1,
+      "bytes": 3597400
+    },
+    "classes3.dex": {
+      "count": 1,
+      "bytes": 3482088
+    },
+    "classes4.dex": {
+      "count": 1,
+      "bytes": 3370712
+    },
+    "META-INF": {
+      "count": 7,
+      "bytes": 1238160
+    },
+    "AndroidManifest.xml": {
+      "count": 1,
+      "bytes": 158228
+    },
+    "org": {
+      "count": 2,
+      "bytes": 92476
+    },
+    "google": {
+      "count": 12,
+      "bytes": 90177
+    },
+    "builddef.lst": {
+      "count": 1,
+      "bytes": 42148
+    },
+    "publicsuffixes.gz": {
+      "count": 1,
+      "bytes": 34000
+    },
+    "osdk": {
+      "count": 1,
+      "bytes": 34000
+    },
+    "okhttp3": {
+      "count": 1,
+      "bytes": 34000
+    },
+    "kotlin": {
+      "count": 7,
+      "bytes": 24359
+    },
+    "isoparser-default.properties": {
+      "count": 1,
+      "bytes": 13916
+    },
+    "DebugProbesKt.bin": {
+      "count": 1,
+      "bytes": 1714
+    },
+    "ReadMe_UniSDK.txt": {
+      "count": 1,
+      "bytes": 1542
+    },
+    "androidsupportmultidexversion.txt": {
+      "count": 1,
+      "bytes": 53
+    },
+    "version.txt": {
+      "count": 1,
+      "bytes": 15
+    }
+  }
+}

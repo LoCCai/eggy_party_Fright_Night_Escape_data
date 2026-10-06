@@ -1,0 +1,69 @@
+{
+  "task": "蛋仔派对 APK 解包与逃出惊魂夜数据挖掘",
+  "date": "2026-10-06",
+  "apk": {
+    "file": "01-base-1-.apk (官方安卓安装包)",
+    "version": "release-v1.16.1.4",
+    "build_date": "2026-09-10",
+    "size_bytes": 2129719032,
+    "sha256": "6cb39a51d5e7157d39c5d262fc672351d399e6556e271a13f95e67dc01902485"
+  },
+  "unpack": {
+    "location": "/tmp/eggyapk/apk (临时目录,不入仓库)",
+    "entries": 5377,
+    "total_bytes": 2414256313,
+    "inventory_files": ["inventory/inventory.json", "inventory/inventory_by_ext.txt", "inventory/inventory_tree.txt", "inventory/inventory_top100.txt"]
+  },
+  "directory_guide": {
+    "inventory/": "APK 全量盘点(按扩展名/目录/大文件)",
+    "plaintext_scan/": "明文层(json/xml/txt/dat 等 3771 文件)关键词扫描:15 词全零命中",
+    "npk_format/": "NPK 格式分析报告、样本二进制、加密表样本、逐包提取清单(gzip)",
+    "npk_hits/": "关键词命中的 NPK 提取文件 170 个(以 包内序号_偏移 命名)",
+    "key_evidence/": "人工精选的最有价值证据文件及字符串/数值 dump",
+    "scan/": "关键词命中清单、频次统计、上下文样本、092570 串池解码 JSON",
+    "scripts/": "本次全部自写并实际使用的脚本(inventory_apk.py / npk_analyze.py / npk_table_attack.py / npk_extract.py / plaintext_scan.sh / npk_content_scan.sh / nex_kv_dump.py)"
+  },
+  "npk_summary": {
+    "format": "NeoX NXPK v3: 头 20B(NXPK|条目数|0|版本3|表偏移) + zstd 帧序列 + 尾部 28B/条 文件表",
+    "table": "文件表一律加密(熵 8.0,含 script.npk 的 full_indices_script PZ$C 包裹件);密钥在 libclient.so(145MB, 混淆, 含 'PZ$' 引用@0x72b9368)内,未能在本次会话提取",
+    "extracted": {
+      "res": "105991 OK / 860 加密失败 (声明 99658 条)",
+      "char": "27739/27739",
+      "scene": "9583/9587",
+      "props": "57528/57528",
+      "gui2": "31393/31393",
+      "wwise": "31 帧(126 条目,部分共帧)",
+      "props_zhucheng": "272/272",
+      "props_ui_model": "306/306",
+      "char_loading": "739/739",
+      "script": "整体加密,0 帧可解",
+      "script_patch": "整体加密,0 帧可解"
+    },
+    "community_tools": "YJBeetle/unnpk 编译成功但对蛋仔 v3 格式实测失败(Z_DATA_ERROR: not zlib);NeoXResearch 提供表结构参照"
+  },
+  "keyword_hits": {
+    "plaintext_layer": "15 词全部 0 命中(assets 散文件为小组件/SDK 配置)",
+    "npk_content_layer": {
+      "files_hit": 590,
+      "freq": {"youling": 678, "惊魂夜": 606, "逃出": 562, "MVP": 272, "百珍楼": 226, "追捕": 138, "逃生": 88, "不夜楼": 34, "爆米花": 15, "伯克": 15, "矿工": 11, "海瑟": 8, "失血": 8, "迅影": 1, "蒸汽炉": 1, "莉莉丝": 1, "痛楚": 1, "梵蒂": 1, "影爪": 1},
+      "zero_hits": ["念奴娇", "歌女", "FrightNight(英文)"],
+      "note": "念奴娇/歌女 与技能权威数值最可能位于整体加密的 script.npk;资源包内已见痛楚领域/失血/迅影相关配置名"
+    }
+  },
+  "key_findings_files": {
+    "res_092570_heather_skill_config_blood_bianzoulou.bin": "丧心护士海瑟技能配置:ogc2_tick_delta_blood/ogc2_passive_blood_radius/ogc2_blood_moon_cd/ogc2_blood_range/mute_woman_ghost_claw_* 等属性名 + lambda 数值(Fix32 0.1/2.5/4/5/6/20/30/35/60 等) + 技能图标(猩红日蚀/血月潮音/蚀月裁决/tcjhy 系列) + 技能名列表(冥犬突袭/幽冥之爪/痛楚领域/血月潮/引血清相位/负月飞升/返眠/野兽出笼)",
+    "res_092564_character_registry_yingzhao_fandiya.bin": "角色名注册表:丧心护士海瑟(血幻影)/影爪梵蒂娅/哑女斯黛拉/困兽雷蒙德(野兽形态)/冥蛇佩姬/魔警艾琳/怨灵小丑/血衣教师礼温 等",
+    "res_092571_buff_registry_shixue_levels.bin": "buff 名注册表:护士失血等级1/护士失血等级2/护士扎针针头/护士瞄准减速/护士血雾停留减速 等",
+    "res_092383 & res_092386": "追捕者触发器:海瑟分身攻击/海瑟圆形爆炸/追捕者普攻;max_ctrl_duration/min_ctrl_duration 等控制时长字段",
+    "res_091127_combat_property_pool.bin": "战斗属性池:hp_max/damage_coefficient_list/level_damage_ratio/p_atk/p_hp_reg/p_skill_frequency",
+    "res_091001_battle_rule_fields.bin": "模式规则字段:battle_rule/battle_rule_conf_key/children_map_list/equipment_rarities",
+    "res_096514_map_props_baizhenlou_buyelou.bin": "惊魂夜地图物件全名表(逃出惊魂夜_百珍楼_*/不夜楼_*,含检测区域/追踪中运动器字段)",
+    "gui2_*.bin": "UI 文案:你是追捕者/惊魂夜角色限免/可在逃出惊魂夜作为矿工的/座蒸汽炉尚未激活/每一局逃出惊魂夜"
+  },
+  "caveats": [
+    "NPK 文件表加密 → 提取文件无原始文件名,以 序号_偏移 命名",
+    "属性名与数值的精确配对需 NeX 记录区格式逆向,当前证据为共现+lambda 自含数值,可人工判读但非结构化数值表",
+    "script.npk/script_patch.npk 整体加密未解开;res.npk 860 个加密条目未解;绝无编造数据",
+    "解包原始产物在 /tmp/eggyapk(重启即失),本目录为整理后证据与全部可复现脚本"
+  ]
+}

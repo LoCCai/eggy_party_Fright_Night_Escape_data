@@ -1,0 +1,11 @@
+frame005862@0x371a624 u8 [爆米花] ... $(,048<@DHLPd��C@@L`d�nnn\��?PT爆米花机font/hkxzyt_w9_gb.ttfTt$,48@DHLPTX\`dpTl�'�"��<B�?�??�����B BDHLP�PThTLRText_title...
+frame006155@0x3872694 u8 [挖煤] ...����$\nRichTextEx*��������DCDD@$\`���nnn\��?PT挖煤font/HuaWenYuanTi-Bold-2.ttf8���lP�Q�v�B�A�?�???�����BBDHLP�PTt`X	RText_sel{"IsRoot":true}�������o��>�Q�>@��>�G?...
+frame006155@0x3872694 u8 [挖煤] ...0���$\nRichTextEx��������DCDD@$\`���nnn\��?PT挖煤font/HuaWenYuanTi-Bold-2.ttf����lJ�*[s�B,B�?�???�EHd�BBDHLP�PT���	RText_nmlk{"IsRoot":true,"Attributes":{"LabelText":{"ignore":"单人"}},"Options":{"...
+frame006162@0x3879014 u8 [蒸汽炉] ...��$\nRichTextExZ��������B@@` |���nnnx��?lp##cfff8345#n座蒸汽炉尚未激活font/HuaWenYuanTi-Bold-2.ttfTt$,48@DHLPTX\`dpTl[�OtBO�B�?�??�����C$BDHLP4PT�	RText_not...
+frame006162@0x3879014 u8 [逃生门] ... $(,048<@DHLPd�B@@P lpY�nnnh��?\`逃生门已开启font/HuaWenYuanTi-Bold-2.ttfTt$,48@DHLPTX\`dpTl�(N�BO�B�?�??���4DC$BDHLP4PT�\nRText_open...
+frame006170@0x387f844 u8 [逃生门] ... $(,048<@DHLd�@@P.dh����nnn`��?TX逃生门已开启!font/hkxzyt_w9_gb.ttfTt$,48@DHLPTX\`dpTl�����ChB�?�??�1�ClB@DHL�LPp\TRText...
+frame006412@0x3972c80 u8 [逃生门] ...�����L���)(�nnn����?�?�A���������(font/HuaWenYuanTi-Bold-2.ttf+逃生门开启还需#cfff500110#n积分豆���l3�c����A�?�??�����DBDHLP�PThTL	Text_open���������)����>{&A�G?��@���@�@...
+frame006412@0x3972c80 u8 [逃生门] ...�T���)(�nnn����?�?�Axtxxx����(font/HuaWenYuanTi-Bold-2.ttf逃生门已开启P���lF�4�2�B�B�?�??���8CBHLPT�TXlXPText_turn_on������q=�>ף0?��>��>�B�B8AFB...
+frame006413@0x397343c u8 [逃生门] ... $(,048<@DHLd�@@Plp�)(�nnnh��?\`逃生门已开启font/HuaWenYuanTi-Bold-2.ttf����l<���)\�A�,C�?�???���8CBDHLP�PThTL	Text_openP���$0 ...
+frame006427@0x3978434 u8 [逃生门] ...X���$$�nnn���?��?�?�A�����0���(font/HuaWenYuanTi-Bold-2.ttf#·逃生门开启还需110块蛋糕����l�du+4�A\n��A�?�???������CBDHLP�PThTL	Text_open@����������>w-?=\nA�G?@8�@/�ף�@)\�@...
+frame022182@0xa1a8164 u8 [挖煤] ...PTX\`d0�D�DxBDD�@p����nnn���?|�1蛋仔3#c2fffe4[医生]#n:  大家专心挖煤！font/HuaWenYuanTi-Bold-2.ttfTt$,48@DHLPTX\`dpTlNñr��8�BZ\nB�?�?�?�����DBDHLPPT���	text_chat...

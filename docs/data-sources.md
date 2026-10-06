@@ -215,8 +215,9 @@
      evidence/ 9 个证据件(09-29 官方公告全文缓存 game_notice_other_channel_20260929.md、
      hotfix_623479_balance_text.md、官方聊天词库 368 条、ccmini leveldb 全量 dump、
      fright_night_common OGC 附属数据、client_hotfix_v1/fshotfix_v3 热更原件、两个解包帧清单)+
-     scripts/ 6 个可复现脚本(npk_zstd_walker / fshotfix_extract2 / ldbdump / keyword_scan 等,
-     keyword_scan.py 已复跑验证:107 文件命中,结论一致)。subpacktemp 12 个 .orbit.tmp 断点包
+     scripts/ 7 个可复现脚本(npk_zstd_walker、fshotfix_extract2、parse_hotfix、keystream_scan、
+     npktry、ldbdump、keyword_scan;keyword_scan.py 已复跑验证:107 文件命中,结论一致)。
+     subpacktemp 12 个 .orbit.tmp 断点包
      已逐个标注完整度:数据区截断 9.4%~83.7%、文件表 0B,唯 game_plays_17 完整(orbit_tmp_analysis.md)。
    - **与库内数据逐项比对结论(一致 → 仅升级信源,不改值)**:09-29 公告运行时缓存全文的惊魂夜
      平衡数值(歌女/蓝慈/赫拉/艾琳/雷蒙德/礼温)与 patches 2026-09-29 条目逐项一致,6+3 名角色

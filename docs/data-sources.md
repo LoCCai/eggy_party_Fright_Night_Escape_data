@@ -87,7 +87,9 @@
   (2026-10-06 已尝试官方 APK v1.16.1.4 客户端解包补缺:三项核心数值在本包内均不可得
   ——海瑟字段名已定位但字段↔数值配对未完成,影爪/歌女配置位于加密的 script.npk;
   明细与拒绝理由见下文第 8 节;同日运行时热更数据备份复核:**迅影索/念奴娇/暗影能量全备份 0 命中,
-  失血秒伤/痛楚领域绝对数值不存在于备份**(公告仅载改动幅度),见第 9 节)
+  失血秒伤/痛楚领域绝对数值不存在于备份**(公告仅载改动幅度),见第 9 节;
+  2026-10-07 再以 8 个官方局内热更 NPK 分包(ext_packer_8/11 等,外观/语音/环境资源)四编码复扫,
+  三项缺口与「百珍楼」仍 0 真实命中,维持留空,见第 10 节)
 - 巅峰2v8 10-02 新赛季的赛季名称、段位继承与奖励细则(官方截至 2026-10-01 未公布);「档案解封计划」详情(官方称 10-05 揭晓)
 
 ## 提取方式
@@ -275,3 +277,59 @@
      - **结论**:第 8 节阶段一「纯资源/文案」路线在运行时备份侧同样成立且素材更全(玩法包本体
        在侧、公告/词库为官方明文);新表均可复用现有 docker 站点架构加只读集合实现,无需改架构;
        数值层仍受 libneox pkg_decrypt 阻塞。本轮仅评估,未建新表/新页面。
+
+10. **2026-10-07 官方局内热更 NPK 分包研判(8 个 ext_packer 系分包;零新增惊魂夜玩法数据,种子表未改动)**
+    - 样本:用户补发 8 个游戏运行时热更 NXPK v3 分包(魔数实测,共约 1.49GB):ext_packer_8(344MB)、
+      ext_packer_11(221MB)、ext_packer_fashion_part_high_2(233MB)、ext_packer_low_skin_3(85MB)、
+      ext_packer_low_skin_5(81MB)、ext_packer_skin_voice_1(198MB)、ext_packer_skin_voice_3(187MB)、
+      ext_packer_sky_box_1(125MB);原始包暂存工作区 /home/eggy-test/npk8(不入库)。解包沿用第 9 节
+      walker(zstd 帧链提取),研判报告与证据:`docs/incoming/npk8-2026-10-02/`(identity_report /
+      pack_manifests / keyword_hits / cosmetics_inventory / manifest.json + evidence/ 6 份逐帧清单、
+      skin_voice_bank_map.txt、CDN 清单原件 + scripts/ npk_wwise_bank_mapper.py、npk_multiscan_keywords.py、
+      run_npk8_all.sh、count_skin_codes.py(2026-10-08 补档,皮肤/加载页计数口径归档))。
+    - **身份判定(本节为合并前二次核验,结论与解包报告一致)**:CDN `npk_version_android.txt`
+      (u5.update.netease.com,2026-10-07 实测,原件 evidence/cdn_npk_version_android_20261007.txt)
+      npkext 分节 size+md5 逐包对照 —— **low_skin_3(17ad8d59…)与 sky_box_1(39a31114…)与 CDN 当前版
+      全 md5 一致**;ext_packer_8/11 等 6 包为同名旧版(CDN 已更新为更大体积新版);
+      `update_in_game_npkext_list` 分节证实 ext_packer 基础编号系列、fashion_part_high、skin_voice 属
+      **局内热更(in-game update)资源包**。8 包全部为**角色外观/语音/环境资源**,无一为惊魂夜玩法包或地图包:
+      ext_packer_8/11 = 局内热更角色资源增量包(loading 皮肤页、皮肤特效系列 s11~s22 与 s30~s33/zy/ip、
+      NPC npc_zombie(带 wwise/chinese/zombie_vo.bnk 出场配音)/npc_hxys/npc_luo/npc_dxh/npc_gxag);
+      fashion_part_high_2 = 高模时装分件(t4 档);low_skin_3/5 = 低模皮肤模型;(皮肤/加载页四组总数
+      初版记 loading 141+90、t4 分件 183、低模代号 248+122,系未归档归组口径,2026-10-08 独立复核
+      9 种收割口径均无法复现,**待核验**;可复现口径实测 ext8 loading 组件级 123、ext11 77、
+      fashion t4 组件级 187、low_skin_3/5 gim 实体目录 120/87 —— 口径定义与工具已归档
+      docs/incoming/npk8-2026-10-02/scripts/count_skin_codes.py,勘误明细见 pack_manifests.md §10);
+      skin_voice_1/3 = 裸 Wwise SoundBank 拼接包(940/794 个 bank = 470/397 事件 + 470/397 媒体,
+      FNV-1 对撞命名出 141 个 <代号>_vo 语音 bank,zombie_vo 与 ext_packer_8 的 npc_zombie 引用跨包闭环);
+      sky_box_1 = 天空盒/场景环境包(skybox_s9~s26、蛋仔岛 cwldao_02~05/city01~03、嘉年华、
+      竞速赛季 jingsu_s25_1/s26_1/s31_1、农场系列)。合并前抽验:ext_packer_8 解出文件实测含
+      npc_zombie/zombie_vo 引用、ext_packer_11 实测含 char_jhdxlv/jhdxh 成对资源、sky_box_1 解出文件实测
+      场景名 nchang_*/jingsu_s25_1/s26_1/s31_1/cwldao_city*/jianianhua2,均与报告一致。
+      ext_packer_11 的 jhdxlv/jhdxh 与 ext_packer_8 的 eff_jh_v01 中 jh=惊魂**仅为推断,无文案可证,未定论不入库**。
+    - **与库内数据逐项比对结论:零新增惊魂夜玩法数据,server/src 种子数据未改动**。合并前本会话复扫
+      (实跑 scripts/npk_multiscan_keywords.py:6 包 8,358 个解出文件 + 8 个 npk 原始字节流,
+      UTF-8/UTF-16LE/UTF-16BE/GBK 四编码):失血/痛楚领域/迅影索/暗影能量/念奴娇/百珍楼/惊魂夜 及
+      yingzhua/xunying/niannujiao/baizhenlou 全部 **0 真实命中**;合并前复扫 12 词命中 3 处、
+      连同解包员全量 28 词扫描合计 **9 处随机碰撞**(礼温×5,其中 1 处在解出 DDS 纹理内浮点记录、
+      4 处压缩流;海瑟×2、逃出×1、失血×1,失血命中 @0x3e58273 逐字节复核一致,邻域香农熵实测
+      7.79~7.95 bits/byte,无文本结构;明细与勘误见 keyword_hits.md §2)。技能数值表不在资源包,
+      在加密 script.npk(PZ$E,密钥在原生库)与服务器侧 —— 与第 8/9 节结论闭环。
+    - **三项数值缺口复查(维持留空,非遗漏)**:海瑟「失血」秒伤/「痛楚领域」数值、影爪「迅影索」次数/
+      「暗影能量」上限、歌女「念奴娇」超时时长 —— 8 包内零证据;「百珍楼」线索亦无(中文、baizhenlou/bzl
+      在 sky_box_1 全部场景资源与原始包中仅 3 字节随机碰撞,无任何资源名)→ 不新增地图行,留待官方公告。
+    - **外观/语音盘点(数据站扩展素材,不入种子表)**:代号清单见 cosmetics_inventory.md(资源名均为
+      包内实测,骨架统一为 danzai01_lod = 玩家蛋仔外观,非惊魂夜角色模;清单为去重节选,总数口径
+      见该文件 §0 与 pack_manifests.md §10 勘误节):① t4 高模时装分件(清单枚举 176 项;包内
+      loading 组件级实测 189、其中 t4_* 187;fashion_part_high_2,含 tyf_ugc/zs_ugc 两个 UGC 分件);
+      ② 低模皮肤代号(清单枚举 109+52 项;包内 gim 实体目录实测 120+87;low_skin_3/5,含
+      t3_233lypf 233乐园/t3_hykb 好游快爆/t3_xhs 小红书/t3_oppopf OPPO 渠道联名档);
+      ③ 语音 bank 141 个具名 <代号>_vo(skin_voice_1/3,bank_id/off/size 全表见
+      evidence/skin_voice_bank_map.txt;bank 940/794、WEM 15,354/13,457 共 28,811 个为实测精确数,
+      Wwise Vorbis 44.1kHz,转码需 ww2ogg 未安装未验证);
+      ④ 天空盒/场景(sky_box_1,清单见上);⑤ ext_packer_8/11 loading 皮肤页(可复现组件级口径
+      123+77;全表 pack_manifests.md §2/§3)。四组旧总数(141/90/183/248+122)**待核验**,
+      站内索引暂以代号清单本体与 bank/WEM/VO 精确数为准。中文名官方对照仍缺(对照表在加密 script.npk/服务器侧),
+      建站时建议以代号为主键,仅对高置信联名标注解读(nailong 奶龙、hlw 葫芦娃、tom 汤姆、lotso 草莓熊、
+      woody 胡迪、meiledi 美乐蒂、longnv 龙女、gesang 格桑、daocaorenabu 稻草人阿布、swk 孙悟空等);
+      heisen/haiser 等代号无法证实为海瑟,原样标注不解读。

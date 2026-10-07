@@ -1,0 +1,83 @@
+{
+  "collection": "eggy_party_Fright_Night_Escape_data / docs / incoming / npk8-2026-10-02",
+  "created": "2026-10-07",
+  "task": "用户补发 8 个游戏运行时热更 NPK(NXPK v3)解包、身份判定、惊魂夜关键词扫描、数值缺口复查",
+  "source": {
+    "attachment_root": "/root/.zcode/tmp/prompt-attachments/remote-ssh-192.168.31.193-52122-root-home-ccai-7b414b66-e9c3-4e48-8f6a-382131024/",
+    "staged_to": "/home/eggy-test/npk8/src/ (工作区,不入库)",
+    "count": 8,
+    "all_data_and_table_complete": true,
+    "file_table": "全部加密不可解(沿用 runtime-2026-10-02 PZ$E 结论,本轮抽样确认)"
+  },
+  "tooling": {
+    "walker": "runtime-2026-10-02/scripts/npk_zstd_walker.py (沿用上轮,zstd 帧链提取)",
+    "new_scripts": [
+      "scripts/npk_wwise_bank_mapper.py — Wwise bank FNV-1 ID→名字对撞(本会话新增)",
+      "scripts/npk_multiscan_keywords.py — UTF-8/UTF-16LE/UTF-16BE/GBK 四编码关键词扫描(本会话新增)",
+      "scripts/run_npk8_all.sh — 8 包批量解包驱动(本会话)",
+      "scripts/count_skin_codes.py — 皮肤/加载页代号计数口径归档(2026-10-08 研判合并会话补档,响应独立复核)"
+    ]
+  },
+  "cdn_crosscheck": {
+    "url": "https://u5.update.netease.com/pl/npk_version_android.txt",
+    "fetched": "2026-10-07",
+    "evidence": "evidence/cdn_npk_version_android_20261007.txt",
+    "full_md5_match": ["ext_packer_low_skin_3", "ext_packer_sky_box_1"],
+    "same_name_older_version": ["ext_packer_8", "ext_packer_11", "ext_packer_fashion_part_high_2", "ext_packer_low_skin_5", "ext_packer_skin_voice_1", "ext_packer_skin_voice_3"],
+    "in_game_update_series": ["ext_packer_8", "ext_packer_11", "ext_packer_fashion_part_high_2", "ext_packer_skin_voice_1", "ext_packer_skin_voice_3"],
+    "device_log": "上轮 log.txt 2026-10-06 会话:8 包均挂载于 subpackage/<包名>"
+  },
+  "packs": [
+    {"name": "ext_packer_8", "size": 360654424, "md5": "2c2965e70e6b39cda0d93c0a8c89453e", "count_hdr": 3891, "frames": 3890, "types": {"ktx": 1368, "anim_cfg": 1011, "neox_xml": 704, "mesh": 396, "bin": 272, "xml": 122, "json": 17}, "saved_files": 2126,
+     "identity": "局内热更角色资源增量包(皮肤系列 s11~s22 时代);NPC npc_zombie(带 zombie_vo 配音引用)/npc_hxys/npc_luo/npc_dxh;loading 皮肤页(初版记 141,系未归档归组口径待核验;可复现组件级口径 123,见 scripts/count_skin_codes.py)"},
+    {"name": "ext_packer_11", "size": 230694672, "md5": "7ddd5e305daa58a389a0e14c93ace0c7", "count_hdr": 1824, "frames": 1824, "types": {"ktx": 739, "anim_cfg": 451, "neox_xml": 256, "mesh": 177, "bin": 104, "xml": 74, "json": 23}, "saved_files": 908,
+     "identity": "局内热更角色资源增量包(皮肤系列 s30~s33 + ip 联名时代);char_jhdxlv/jhdxh(疑惊魂主题蛋小绿/黄,推断未定论)、t2_daocaorenabu、npc_gxag、t0_djlw"},
+    {"name": "ext_packer_fashion_part_high_2", "size": 243642764, "md5": "9a3aba7194e23b1b899f1001ebb1b844", "count_hdr": 2640, "frames": 2640, "types": {"anim_cfg": 1173, "ktx": 694, "mesh": 586, "neox_xml": 187}, "saved_files": 1360,
+     "identity": "高模时装部件包:t4 分件(head/upper/lower);(初版记 183,系未归档归组口径待核验;可复现 loading 组件级口径 189、其中 t4_* 187,见 scripts/count_skin_codes.py)"},
+    {"name": "ext_packer_low_skin_3", "size": 88620928, "md5": "17ad8d599fb843f352f1b9512ecb2961", "count_hdr": 3452, "frames": 3452, "types": {"anim_cfg": 1532, "ktx": 737, "mesh": 582, "neox_xml": 520, "xml": 66, "json": 13, "bin": 2}, "saved_files": 2133,
+     "identity": "低模皮肤模型包 t0~t3;(初版记 248 个代号,系未归档归组口径待核验;可复现口径 gim 实体目录 120/gim 基名 478,见 scripts/count_skin_codes.py);CDN 当前版全 md5 一致"},
+    {"name": "ext_packer_low_skin_5", "size": 84533328, "md5": "1c1f98ab09d95c52d85e85f7721dcf9d", "count_hdr": 2582, "frames": 2582, "types": {"anim_cfg": 1148, "ktx": 565, "mesh": 460, "neox_xml": 407, "bin": 1, "xml": 1}, "saved_files": 1557,
+     "identity": "低模皮肤模型包;(初版记 122 个代号,系未归档归组口径待核验;可复现口径 gim 实体目录 87/gim 基名 237,见 scripts/count_skin_codes.py);含渠道服联名档(233/hykb/xhs/oppo)"},
+    {"name": "ext_packer_skin_voice_1", "size": 206597180, "md5": "03ef57742c5c0248581fa716991e2f06", "count_hdr": 940, "frames": 0, "banks": 940, "media_banks": 470, "event_banks": 470, "wem_total": 15354, "audio_bytes": 203156524, "named_vo_banks": 139,
+     "identity": "裸 Wwise bank 语音包(数据区非 zstd 帧链);FNV-1 对撞命名 139 个 <代号>_vo;含 zombie_vo"},
+    {"name": "ext_packer_skin_voice_3", "size": 195473136, "md5": "e0fc5b9de5cd039feda82859747ce829", "count_hdr": 794, "frames": 0, "banks": 794, "media_banks": 397, "event_banks": 397, "wem_total": 13457, "audio_bytes": 192480528, "named_vo_banks": 125,
+     "identity": "同上,另一版本;VO 与 sv1 重叠 123,独有 chnj/pjxj"},
+    {"name": "ext_packer_sky_box_1", "size": 130499024, "md5": "39a311147f2c1d325cce0ca1e7c70075", "count_hdr": 548, "frames": 548, "types": {"anim_cfg": 230, "ktx": 156, "mesh": 115, "bin": 47}, "saved_files": 274,
+     "identity": "天空盒/场景环境包:蛋仔岛 cwldao 系列、嘉年华、竞速 s25/s26/s31、农场系列(海绵宝宝/妖精森林/小马/熊猫/星空);CDN 当前版全 md5 一致"}
+  ],
+  "keyword_scan": {
+    "keywords": ["惊魂夜", "逃出", "蒸汽炉", "追捕者", "逃生者", "海瑟", "失血", "痛楚领域", "迅影索", "暗影能量", "念奴娇", "百珍楼", "礼温", "梵蒂娅", "jinghun", "identity_v", "fright", "boiler", "yingzhua", "xunying", "niannujiao", "fandiya", "liwen", "haiser", "haise", "xiaoejiao", "baizhenlou", "zhengqilu"],
+    "encodings": ["utf-8", "utf-16le", "utf-16be", "gbk"],
+    "scope": "8358 个解出文件 + 8 个 npk 原始字节流",
+    "genuine_hits": 0,
+    "collisions_verified": 9,
+    "note": "全部命中(1 个解压后 DDS 纹理内浮点记录 + 8 个压缩流,合计 9:礼温 5、海瑟 2、逃出 1、失血 1)经上下文人工核验为随机碰撞;详见 keyword_hits.md。(2026-10-08 订正:初版记 7=[1 解出+6 压缩流],礼温原始流漏计 sv1 gbk 1 处;命中文件 0003561 魔数实测为 DDS 纹理而非 DDRS)"
+  },
+  "gap_recheck": {
+    "海瑟_失血_秒伤": "无新证据(失血仅 1 次随机碰撞)",
+    "海瑟_痛楚领域_数值": "无新证据(0 命中)",
+    "影爪_迅影索_次数": "无新证据(0 命中)",
+    "影爪_暗影能量_上限": "无新证据(0 命中)",
+    "歌女_念奴娇_超时时长": "无新证据(0 命中)",
+    "百珍楼_新地图线索": "无新证据(中文 0 命中;sky_box_1 无 bzl/baizhen 场景资源)",
+    "conclusion": "8 包均为角色外观/语音/环境资源,无技能数值表;技能数值仍只在加密 script.npk 与服务器侧"
+  },
+  "format_discoveries": [
+    "NXPK 数据区第三种形态:skin_voice_1/3 为裸 Wwise SoundBank 顺序拼接(BKHD+HIRC/DIDX/DATA,无 STID),940/794 个 bank",
+    "Wwise bank_id = FNV-1(lower32, 小写输入);用其他包收割的资源名对撞可命名 bank —— sv1 139/940、sv3 125/794,共 141 个 <代号>_vo",
+    "WEM 为 Wwise Vorbis(RIFF/WAVE fmt tag 0xFFFF,44.1kHz);转码未做(ww2ogg 未安装)",
+    "ext_packer_8 的 npc_zombie 引用 wwise/chinese/zombie_vo.bnk,zombie_vo bank 在两个语音包中均确认 —— 跨包闭环"
+  ],
+  "deliverables": [
+    "identity_report.md — 身份判定(含 CDN 对照与方法)",
+    "pack_manifests.md — 每包清单(统计/类型/内容代号)",
+    "keyword_hits.md — 关键词扫描与碰撞核验",
+    "cosmetics_inventory.md — 皮肤/时装/天空盒/语音可扩展清单",
+    "manifest.json — 本文件",
+    "evidence/*.walk.json.gz — 6 包逐帧清单(共 14,936 帧)",
+    "evidence/skin_voice_bank_map.txt — 1734 个 Wwise bank 的 id/off/size 与命名结果",
+    "evidence/cdn_npk_version_android_20261007.txt — CDN 官方 npkext 清单原件",
+    "scripts/ — npk_wwise_bank_mapper.py / npk_multiscan_keywords.py / run_npk8_all.sh / count_skin_codes.py(计数口径归档)"
+  ],
+  "workspace": "/home/eggy-test/npk8 (src/ 原档 8 个;各包 files/ 解出产物与 .walk.json;logs/ 扫描日志) — 按纪律不入库"
+}

@@ -1,0 +1,1566 @@
+{
+    "version": "patch_android_202609282002_4343784", 
+    "res_rev": "4343784", 
+    "script_rev": "4343531", 
+    "script_patch_rev": "4332177", 
+    "engine_ver": "1789356316", 
+    "package_version": "1.0.299", 
+    "min_client_version": "196", 
+    "max_client_version": "99999", 
+    "ab_srv": "b", 
+    "ppk": {
+        "assets.ppk.map": [
+            19413478, 
+            "8ebf8956802579d29d6bab5780ae340e"
+        ], 
+        "assets_d.ppk": [
+            6124400, 
+            "8917a9799ae568dbdf1048c64f3ca619"
+        ], 
+        "assets.ppk": [
+            10029525, 
+            "e24ff92bdfa597d6ef60d34bedb73e17"
+        ], 
+        "assets_file_storage": [
+            9811708624, 
+            "bf270eeeb40db33afe10a966a27675c9"
+        ], 
+        "assets_d.ppk.map": [
+            11865809, 
+            "47aa82247ae1f36c0db9dec82b70331d"
+        ]
+    }, 
+    "npk": {
+        "script.npk": [
+            206226920, 
+            "8e257f0ca5523ac51f334ccf025527bc"
+        ], 
+        "script_file_list": [
+            2599638, 
+            "a7896a13ded3416965350ebee2e89e0d"
+        ], 
+        "full_indices_script": [
+            1252903, 
+            "9fd1db9e938a753f899ab5148d544c07"
+        ]
+    }, 
+    "script_patch_npk": {
+        "script_patch.npk": [
+            426436, 
+            "e6044480dafbaf31fe2cebc800552aa4"
+        ], 
+        "full_indices_script_patch": [
+            3346, 
+            "f9ec574fb4afbebab50144f67c44f6f4"
+        ], 
+        "script_patch_file_list": [
+            7091, 
+            "dd13daf752194e2b27cbe7e3adaf6277"
+        ]
+    }, 
+    "extra_npk": {
+        "297_202609170004_script.npk": [
+            75633516, 
+            "fddb72524d010e7ed233639316e41cb0"
+        ], 
+        "298_202609222109_script.npk": [
+            57576136, 
+            "35c6eda7e3cec5baf6946f54ab852679"
+        ], 
+        "294_202609022052_script.npk": [
+            84846544, 
+            "d761f02749b2b0bb960fac679330a3fc"
+        ], 
+        "295_202609092136_script.npk": [
+            80595048, 
+            "b6ae939d8bb49516e1d1cda0947df23a"
+        ]
+    }, 
+    "npk_striptdata": {}, 
+    "files": {
+        "res/npk_file_full_info_bin": [
+            3072591, 
+            "cfc04a271df5d1723c54de81e8e19f39"
+        ], 
+        "res/video/login.mp4": [
+            14424268, 
+            "ce07441977a60438f0f2ffdc22b930e4"
+        ], 
+        "script_patch.npk": [
+            426436, 
+            "e6044480dafbaf31fe2cebc800552aa4"
+        ]
+    }, 
+    "patch_extra_npk": {
+        "patch_diff_res.npk": [
+            68161508, 
+            "2173537dbbf9553c8ab81c1cc731b05a"
+        ], 
+        "full_indices_patch_diff_res": [
+            55174, 
+            "4076b1699c597734cb4009f066c82d9d"
+        ]
+    }, 
+    "svn_branch": "20260923", 
+    "so": {
+        "canary_app_channels": [
+            "netease", 
+            "cps_channels"
+        ], 
+        "armv8": [
+            51082735, 
+            "121ed9a6ee4133caa8e044420f9564b1", 
+            1775299095, 
+            143111432, 
+            "7d17d76560ddba7b0400c900b91fecee"
+        ], 
+        "canary_build_time": 1775887097, 
+        "armv7": [
+            48207734, 
+            "3684fa3325ac72a411e216ca02211e37", 
+            1775299095, 
+            105013364, 
+            "6be36315a13b216a2a6372ab1cb8dc0d"
+        ]
+    }, 
+    "so_real_build_time": 1785905288, 
+    "include_res_script_rev": "4343531", 
+    "npkext": {
+        "ext_packer_3_file_list": [
+            171772, 
+            "61a95e5021786bb8b015d7c619c1f419"
+        ], 
+        "full_indices_ext_packer_pet_low_1": [
+            1427917, 
+            "c804446c4be0fbabec54e7d3fdeddeb9"
+        ], 
+        "ext_packer_editor_props_2.npk": [
+            337540568, 
+            "f7fd7e97203942a09856fda6c1dfee7a"
+        ], 
+        "ext_packer_fashion_part_low_1_file_list": [
+            251524, 
+            "ee7d8a0eb2659abcd31506583977b9be"
+        ], 
+        "ext_packer_story_book_4_file_list": [
+            7503, 
+            "a6fa54d8e052be921f9f9f15dc73aefb"
+        ], 
+        "ext_packer_low_skin_8_file_list": [
+            283147, 
+            "a0e7fff4491028a1ac21d6b438b59b8a"
+        ], 
+        "ext_packer_low_skin_5_file_list": [
+            121124, 
+            "b51cbf95a0ac0e9ce2a21954bf45e9ff"
+        ], 
+        "ext_packer_game_plays_10_file_list": [
+            18881, 
+            "4d09be0c68cba79bbd4da61f9981a984"
+        ], 
+        "ext_packer_accessory_2_file_list": [
+            1169402, 
+            "a1873bfbcc7ea755e77e991e3e2741aa"
+        ], 
+        "ext_packer_2_file_list": [
+            165766, 
+            "b60ac787134a072d15cc83ed224e1919"
+        ], 
+        "ext_packer_skin_voice_2.npk": [
+            187821388, 
+            "7d3205226dbfc2aa70db7f66194e37a8"
+        ], 
+        "ext_packer_story_book_2_file_list": [
+            5782, 
+            "3f5ac2cb93b1c257b7ea3a709f22bb25"
+        ], 
+        "ext_packer_story_book_7.npk": [
+            68843392, 
+            "1d38fb73718dea738fb1d37271124515"
+        ], 
+        "ext_packer_sound_1.npk": [
+            284898708, 
+            "607dbed134ab78f1b52aff799f2e7b26"
+        ], 
+        "ext_packer_story_book_8.npk": [
+            17122228, 
+            "9606d73b7122a35bead5a2a12c9d61cd"
+        ], 
+        "ext_packer_game_plays_14_file_list": [
+            150232, 
+            "f4b6202477e9e24c6b94a38213a4e28d"
+        ], 
+        "ext_packer_8.npk": [
+            360523236, 
+            "d856f60ced3dc2965f8d01a244e8c942"
+        ], 
+        "full_indices_ext_packer_shader_cache_old_1": [
+            24990, 
+            "5f4848a0769bc8eec5238a05c750ee4e"
+        ], 
+        "ext_packer_accessory_2.npk": [
+            473069712, 
+            "45a11fe71b463b0ca8f0c56f648da423"
+        ], 
+        "ext_packer_editor_props_1.npk": [
+            217362780, 
+            "5981ffd2f5cdf3c4ce830d0958522943"
+        ], 
+        "ext_packer_story_book_8_file_list": [
+            10288, 
+            "a919fb748d03a6300c30ff86603e482f"
+        ], 
+        "ext_packer_editor_props_2_file_list": [
+            295816, 
+            "ad9b5f672dde46d8540014c510f713f7"
+        ], 
+        "ext_packer_sky_box_1_file_list": [
+            24957, 
+            "5417582a401389b3daa662fbbeebb312"
+        ], 
+        "ext_packer_game_plays_8.npk": [
+            39595512, 
+            "62246df4e37762583ba58508b248b20d"
+        ], 
+        "ext_packer_10.npk": [
+            397183296, 
+            "b22702df24c0645d6991f803a51ab227"
+        ], 
+        "ext_packer_game_plays_7_file_list": [
+            1172867, 
+            "b95521cdd6341be12ce94fce15f6bee6"
+        ], 
+        "ext_packer_low_skin_2_file_list": [
+            175815, 
+            "dfd5ff041fd974766620466f4c59d272"
+        ], 
+        "ext_packer_ui_img_2.npk": [
+            1026885388, 
+            "d6cf6c857483cf907cb6633591ff49fa"
+        ], 
+        "ext_packer_story_book_4.npk": [
+            16933836, 
+            "e7ca688bcb2dfe329c52bbd7f12e5454"
+        ], 
+        "ext_packer_fashion_part_low_1.npk": [
+            64189168, 
+            "86021f2029578b77120b4a6a73fe6ee9"
+        ], 
+        "full_indices_ext_packer_low_skin_1": [
+            71153, 
+            "7d6944453df47d490a0919be1d0b28ff"
+        ], 
+        "ext_packer_ui_img_2_file_list": [
+            1396045, 
+            "a92e7073e6940d4942ba866661bc6692"
+        ], 
+        "full_indices_ext_packer_11": [
+            65481, 
+            "97dde1da37f9eab3f601c47bf2c528eb"
+        ], 
+        "ext_packer_game_plays_15.npk": [
+            247958108, 
+            "3b2fbd31c4b8b1cee9c8bb6d2e90f4ff"
+        ], 
+        "full_indices_ext_packer_story_book_9": [
+            3794, 
+            "fa1e6be689c1af3f50011e5e736edbea"
+        ], 
+        "full_indices_ext_packer_skin_voice_1": [
+            27006, 
+            "a035f79eccc9b6602c71fcfce3cf22bd"
+        ], 
+        "full_indices_ext_packer_skin_voice_2": [
+            22862, 
+            "46f9619c2b944a499b6f1c025653c8a1"
+        ], 
+        "full_indices_ext_packer_skin_voice_3": [
+            22750, 
+            "2bdeb60bfcc0383843e390692c93db44"
+        ], 
+        "full_indices_ext_packer_story_book_5": [
+            3570, 
+            "e52cee4b83848c4794a7c8ea556624e0"
+        ], 
+        "full_indices_ext_packer_story_book_4": [
+            3682, 
+            "ab8a57e632b782249474525c059d2d30"
+        ], 
+        "full_indices_ext_packer_story_book_7": [
+            37238, 
+            "ae30808ca804bb917e14e79d2914ac36"
+        ], 
+        "full_indices_ext_packer_story_book_6": [
+            8155, 
+            "ce2e79d2ff0040abbfe7ae9e1e395796"
+        ], 
+        "full_indices_ext_packer_story_book_1": [
+            49518, 
+            "99ade6d4b141b642d4063a785c8c913e"
+        ], 
+        "full_indices_ext_packer_story_book_3": [
+            16674, 
+            "78cf5b334c9dd2f7f52bea211856484f"
+        ], 
+        "full_indices_ext_packer_story_book_2": [
+            2908, 
+            "30f31a20c8d10784a3e8e6705e1b8fa9"
+        ], 
+        "ext_packer_shader_cache_old_1_file_list": [
+            48813, 
+            "3c14211728293b6698d250ab23f86ae9"
+        ], 
+        "full_indices_ext_packer_game_plays_14": [
+            78444, 
+            "5ec4c79c2d9374b43c6876abccb582f4"
+        ], 
+        "ext_packer_emoji_1_file_list": [
+            406001, 
+            "5a11f87b9da33c39b0a91e5cf1926c53"
+        ], 
+        "full_indices_ext_packer_game_plays_16": [
+            610027, 
+            "4a01a610dde22120efaf94af848b91fc"
+        ], 
+        "full_indices_ext_packer_game_plays_17": [
+            684956, 
+            "b4bafdb480ec696387ad98f9558fcd1e"
+        ], 
+        "ext_packer_face_high_1.npk": [
+            21418948, 
+            "77153683e2157af13b5d3be4c6022bf3"
+        ], 
+        "full_indices_ext_packer_game_plays_11": [
+            4018, 
+            "e7caa94e17bf9a933349b29055f1d364"
+        ], 
+        "full_indices_ext_packer_game_plays_12": [
+            45292, 
+            "d8e4ff1727595ef8ff80a6f980f9edd8"
+        ], 
+        "ext_packer_story_book_3.npk": [
+            39823196, 
+            "6e9916f9f0f22627880d3720e01fa06a"
+        ], 
+        "ext_packer_story_book_1_file_list": [
+            96168, 
+            "2baa1347c0770e12761c16f05c054bb9"
+        ], 
+        "ext_packer_skin_voice_1.npk": [
+            211254056, 
+            "5c54fd9fdb71bcac2620891710b8c3c9"
+        ], 
+        "ext_packer_6.npk": [
+            158430804, 
+            "047a695859ce52d258801d32ab785942"
+        ], 
+        "full_indices_ext_packer_editor_props_2": [
+            149132, 
+            "b22d7d4d14c82f479056031805e012d6"
+        ], 
+        "full_indices_ext_packer_editor_props_1": [
+            154999, 
+            "57558ed76fcb209483f2e2e0c17d36c0"
+        ], 
+        "ext_packer_game_plays_11_file_list": [
+            7735, 
+            "58ef239bc260353007177245e2efd7a8"
+        ], 
+        "ext_packer_low_skin_3_file_list": [
+            162795, 
+            "287cb5b43f6731e7974ddf4188cb0911"
+        ], 
+        "ext_packer_6_file_list": [
+            83639, 
+            "cccf00c4c92fe3e055b04351547e6108"
+        ], 
+        "ext_packer_1_file_list": [
+            124895, 
+            "45baad491ea2fa288c483f4f8446bfdc"
+        ], 
+        "full_indices_ext_packer_official_city_1": [
+            36395, 
+            "46166a8e88a46ebd4e4fdbf982d4855e"
+        ], 
+        "ext_packer_game_plays_1.npk": [
+            258354104, 
+            "b935fd4c6d0cd8d7c927828f707bb1a6"
+        ], 
+        "ext_packer_editor_props_1_file_list": [
+            308207, 
+            "31c09f6e9c33e0e293efad95e3792d64"
+        ], 
+        "ext_packer_story_book_5_file_list": [
+            7261, 
+            "0759cf8b8dcf679972b08c21b293734e"
+        ], 
+        "ext_packer_game_plays_20_file_list": [
+            106668, 
+            "567160e24273294a1063e750f9e044ea"
+        ], 
+        "ext_packer_low_skin_10.npk": [
+            133957468, 
+            "424801504046fa907a0af9e2064be69c"
+        ], 
+        "ext_packer_shader_cache_old_1.npk": [
+            87742092, 
+            "4aa6f73d3e7691db6e77a0cb7aa2fb8e"
+        ], 
+        "ext_packer_official_city_1_file_list": [
+            67049, 
+            "3c7e2aaf6aa1f0ae7a68ec8fb966741f"
+        ], 
+        "ext_packer_game_plays_12_file_list": [
+            81721, 
+            "c4740db0964cdffbd1ab8e7b6ae6e3f2"
+        ], 
+        "ext_packer_game_plays_5_file_list": [
+            1330358, 
+            "1b6a703c460abe73e554a20115f835a2"
+        ], 
+        "ext_packer_11.npk": [
+            285155356, 
+            "c033116c66c01a46f8395b26245bb735"
+        ], 
+        "ext_packer_low_skin_10_file_list": [
+            287357, 
+            "39b149f7cd5b818f2818316e33050360"
+        ], 
+        "full_indices_ext_packer_fashion_part_high_2": [
+            92065, 
+            "6e1008ab5c2a7be237eb948db9d019e6"
+        ], 
+        "full_indices_ext_packer_fashion_part_high_1": [
+            54896, 
+            "d62362614d39f63dbe84b9e5e6546d7b"
+        ], 
+        "ext_packer_ui_img_1.npk": [
+            2091720192, 
+            "e180af2d53c188da8eb2ae8e51daa86a"
+        ], 
+        "ext_packer_story_book_3_file_list": [
+            31142, 
+            "857cad96236179417c8fd8770b1ccf29"
+        ], 
+        "ext_packer_fashion_part_high_2.npk": [
+            309128368, 
+            "7de1f6e94e4e0e08df6284b95934a68d"
+        ], 
+        "ext_packer_low_skin_3.npk": [
+            88620928, 
+            "17ad8d599fb843f352f1b9512ecb2961"
+        ], 
+        "ext_packer_pet_low_1.npk": [
+            940124932, 
+            "5adf3d0a7f93873a25701f05ff9d54a8"
+        ], 
+        "full_indices_ext_packer_2": [
+            88882, 
+            "f3805a49d1cb95e63a0802b30f448e92"
+        ], 
+        "ext_packer_game_plays_11.npk": [
+            12071836, 
+            "d90f8ad1734db2f6d3b3d2791e376df0"
+        ], 
+        "ext_packer_skin_voice_1_file_list": [
+            39394, 
+            "4d6d7c0257ade42a4b1649924d9b9cd7"
+        ], 
+        "full_indices_ext_packer_game_plays_15": [
+            430943, 
+            "624f8de436b8f75a7e0e57343a8ec1ff"
+        ], 
+        "ext_packer_game_plays_16.npk": [
+            378646072, 
+            "5ee2dc01b8b201d39185d48fd1b7a746"
+        ], 
+        "ext_packer_4_file_list": [
+            121192, 
+            "8287f0d4660af18b84f089272b18b643"
+        ], 
+        "ext_packer_3.npk": [
+            263563164, 
+            "dc06f394e97f0e1321ce07f1c671a781"
+        ], 
+        "full_indices_ext_packer_emoji_1": [
+            202180, 
+            "19e195265acb43398e3401810d017cf0"
+        ], 
+        "ext_packer_shader_cache_new_1.npk": [
+            69908228, 
+            "76aa75154e9e737e128e5cb8a83e0923"
+        ], 
+        "ext_packer_accessory_1_file_list": [
+            661512, 
+            "459a3494468518cc5bf1f91199c22585"
+        ], 
+        "full_indices_ext_packer_game_plays_5": [
+            746436, 
+            "e91027155cee386ac407254bdabaa0b7"
+        ], 
+        "ext_packer_low_skin_1_file_list": [
+            117690, 
+            "24e3868581f8463a86d5e4c46ad3b93c"
+        ], 
+        "full_indices_ext_packer_pet_high_1": [
+            30646, 
+            "16a58266bb4ed3363924e8cf5062222b"
+        ], 
+        "ext_packer_story_book_2.npk": [
+            8940548, 
+            "f090a09dec7a4bde4d04e4c0d041b275"
+        ], 
+        "ext_packer_sound_1_file_list": [
+            37739, 
+            "a285c9559775cbc892f99f3faa02e165"
+        ], 
+        "ext_packer_low_skin_11_file_list": [
+            205001, 
+            "8f72e0910c9e7e95dd82c78e52a690d7"
+        ], 
+        "ext_packer_low_skin_11.npk": [
+            104723212, 
+            "772ae0e5b7097c185992d8a8a2ca73e0"
+        ], 
+        "ext_packer_skin_voice_3_file_list": [
+            33401, 
+            "b5dd9cf133846374057ee02970e0a3bc"
+        ], 
+        "full_indices_ext_packer_game_plays_1": [
+            434351, 
+            "3dec46aa56fb4f7b89dd746fe9dc23c6"
+        ], 
+        "ext_packer_ui_img_3.npk": [
+            10793568, 
+            "cd6243bd1cffd14718fc6c851c85fe2d"
+        ], 
+        "full_indices_ext_packer_10": [
+            107589, 
+            "6ca44975270b606554638c6f4db78554"
+        ], 
+        "ext_packer_low_skin_4_file_list": [
+            67855, 
+            "3f91800da30626f619341c7b4e09ec56"
+        ], 
+        "ext_packer_low_skin_1.npk": [
+            64624668, 
+            "786eb9b15539284332d5fb42998ae6c7"
+        ], 
+        "ext_packer_11_file_list": [
+            122178, 
+            "98fa5fea7326939ba3f069235f38141f"
+        ], 
+        "ext_packer_story_book_10_file_list": [
+            8903, 
+            "bad0fc524ff5008299b58fc51c5f1b7d"
+        ], 
+        "ext_packer_story_book_6.npk": [
+            13372928, 
+            "0deb1174a99cb0883bb50858c2cf44ad"
+        ], 
+        "full_indices_ext_packer_story_book_10": [
+            4018, 
+            "6c38c9f59175e6f86165f89eab6765f8"
+        ], 
+        "full_indices_ext_packer_6": [
+            44853, 
+            "c95d46ee6d0984641710242058e10ee2"
+        ], 
+        "full_indices_ext_packer_4": [
+            66220, 
+            "72b1dd0471d8180338a95f5854054e02"
+        ], 
+        "full_indices_ext_packer_5": [
+            76568, 
+            "75b0e5a50611fa26aa373137f7d950f7"
+        ], 
+        "ext_packer_accessory_1.npk": [
+            176410824, 
+            "cb01a0c047a6b2fb1fe18607325fb084"
+        ], 
+        "full_indices_ext_packer_3": [
+            93116, 
+            "001e8f97bb864f3c96b671efd16fcc95"
+        ], 
+        "ext_packer_game_plays_14.npk": [
+            90419304, 
+            "703c32edafbe7fce9e8c64530df2adc1"
+        ], 
+        "full_indices_ext_packer_1": [
+            68706, 
+            "610ec92ea3cd85841a6163e244e9ee67"
+        ], 
+        "ext_packer_low_skin_2.npk": [
+            83325188, 
+            "aa9781d440d0b164c6eaa84041e8c59a"
+        ], 
+        "ext_packer_fashion_part_low_2.npk": [
+            139842976, 
+            "cf49e0c3cc97e6177501003845d74b14"
+        ], 
+        "full_indices_ext_packer_8": [
+            107141, 
+            "097dbcaa3a0b9a0378091a70d2d73974"
+        ], 
+        "full_indices_ext_packer_9": [
+            171777, 
+            "1b279e782c108673bb965b361fe86bfb"
+        ], 
+        "ext_packer_game_plays_3_file_list": [
+            704951, 
+            "39c34e5c7e816d3a88878794b5f44daf"
+        ], 
+        "ext_packer_game_plays_17.npk": [
+            252061080, 
+            "f21786eacef0e892e033caa9354e31c3"
+        ], 
+        "full_indices_ext_packer_low_skin_2": [
+            104078, 
+            "a0c4f84f41b1e75749f1438452388035"
+        ], 
+        "full_indices_ext_packer_low_skin_3": [
+            95553, 
+            "43fd702c86dc483e5c49ee3d8b5bbf4a"
+        ], 
+        "full_indices_ext_packer_low_skin_4": [
+            39908, 
+            "b9c906da88b3b9802aaae45194a8ac31"
+        ], 
+        "full_indices_ext_packer_low_skin_5": [
+            71412, 
+            "335cfdf353c5c2fb05a0bc87531f526d"
+        ], 
+        "full_indices_ext_packer_low_skin_6": [
+            46089, 
+            "f777d90ab4d4c6358232de9f436d57be"
+        ], 
+        "ext_packer_pet_low_1_file_list": [
+            2506865, 
+            "0a0fe82b1e4ebe8d15fcaa097800619d"
+        ], 
+        "ext_packer_story_book_9_file_list": [
+            7984, 
+            "799d88b0a57637d1480f66235732c766"
+        ], 
+        "full_indices_ext_packer_low_skin_9": [
+            233767, 
+            "2d007647be7263f279bb4aa717542a8f"
+        ], 
+        "ext_packer_story_book_10.npk": [
+            4177932, 
+            "42229558df4372085354d02413a82f4f"
+        ], 
+        "ext_packer_game_plays_15_file_list": [
+            737895, 
+            "76a839fd38fef7b34fb993405c77fbc6"
+        ], 
+        "ext_packer_skin_voice_2_file_list": [
+            33560, 
+            "3a50d9c196670ca98ed2828aba949cee"
+        ], 
+        "ext_packer_5_file_list": [
+            142029, 
+            "defd46a484a800a953bc1228dc49ab9f"
+        ], 
+        "full_indices_ext_packer_sound_1": [
+            21434, 
+            "1f3dd8ec4da55fec98b10311b627d122"
+        ], 
+        "full_indices_ext_packer_sound_2": [
+            94488, 
+            "9c51f513775d5f2d7fbb24f6d46455e8"
+        ], 
+        "ext_packer_fashion_part_high_1_file_list": [
+            103952, 
+            "202d0c79106a2bb2c4c475e4630ae3e3"
+        ], 
+        "full_indices_ext_packer_game_plays_10": [
+            10129, 
+            "05bec88b4ecdcee8083460fbf27850f0"
+        ], 
+        "full_indices_ext_packer_low_skin_7": [
+            727282, 
+            "e2de87e7aa5521ab12076710f721c892"
+        ], 
+        "full_indices_ext_packer_story_book_8": [
+            4774, 
+            "e70e50727107d9a1ff2268e13913b9aa"
+        ], 
+        "ext_packer_story_book_1.npk": [
+            127430928, 
+            "21d53e50f500a72d8e94cab388179b7e"
+        ], 
+        "full_indices_ext_packer_low_skin_8": [
+            160549, 
+            "7d452081118fa5365c667bd4b0a99617"
+        ], 
+        "ext_packer_shader_cache_new_1_file_list": [
+            79120, 
+            "9ab3cfb705af550c121f468d2372bed0"
+        ], 
+        "ext_packer_9_file_list": [
+            313168, 
+            "a4c6fee6761282aad111152880ae594b"
+        ], 
+        "ext_packer_8_file_list": [
+            197081, 
+            "c3abecf52810bd9dadf63f4aca604a2d"
+        ], 
+        "ext_packer_game_plays_1_file_list": [
+            777663, 
+            "e5de49022b96057301e8622c81d9ddd4"
+        ], 
+        "npkext_file_info_muti": [
+            1963995, 
+            "c240141c6afcf7888704db761d374562"
+        ], 
+        "full_indices_ext_packer_shader_cache_new_1": [
+            38010, 
+            "3b6e38f00fe07606a144ebd75858d867"
+        ], 
+        "ext_packer_10_file_list": [
+            198295, 
+            "99e9a82c689a6bb9ba452a5136d6a918"
+        ], 
+        "ext_packer_game_plays_9_file_list": [
+            210016, 
+            "22c2d0dbd5bf04129c1d6be67df225a9"
+        ], 
+        "ext_packer_sky_box_1.npk": [
+            130499024, 
+            "39a311147f2c1d325cce0ca1e7c70075"
+        ], 
+        "ext_packer_emoji_1.npk": [
+            190346672, 
+            "fc394657f5c3a974d501b2240070fe69"
+        ], 
+        "ext_packer_low_skin_5.npk": [
+            83762736, 
+            "4a42c2b31f5f5a79e46bcd73466954ff"
+        ], 
+        "ext_packer_low_skin_7.npk": [
+            113132448, 
+            "405ec2f1fec774eb6f41b363fb39ce63"
+        ], 
+        "ext_packer_pet_high_1.npk": [
+            46415748, 
+            "7e70b9868750558b93c3c94a27e2402a"
+        ], 
+        "ext_packer_story_book_6_file_list": [
+            15635, 
+            "00fa5055bb8338cf66e06f6b0c6cc722"
+        ], 
+        "ext_packer_low_skin_7_file_list": [
+            1319618, 
+            "92bfe72083f3ed5ffba43664d13d0759"
+        ], 
+        "full_indices_ext_packer_low_skin_10": [
+            160845, 
+            "2c074d4d25b5c19bb70e6517a835efaf"
+        ], 
+        "ext_packer_game_plays_4_file_list": [
+            231640, 
+            "85ce57f0fb774939282173153b544b9b"
+        ], 
+        "ext_packer_game_plays_7.npk": [
+            638890728, 
+            "5bc822e01ee0f675e9ef1410b5db91b3"
+        ], 
+        "ext_packer_game_plays_10.npk": [
+            15097072, 
+            "21724b16596c367c6b10b0820d3813fe"
+        ], 
+        "ext_packer_game_plays_8_file_list": [
+            18505, 
+            "0aa1e9ece0705a6042506062850b89eb"
+        ], 
+        "full_indices_ext_packer_fashion_part_low_1": [
+            144895, 
+            "6dbbdfde194642d941b59e19e6553006"
+        ], 
+        "ext_packer_1.npk": [
+            216365572, 
+            "1ce8dafcf75935c375f01d5f2218512c"
+        ], 
+        "full_indices_ext_packer_fashion_part_low_2": [
+            284723, 
+            "57e584b1f661fed2366f8bdd5202a5f8"
+        ], 
+        "ext_packer_story_book_5.npk": [
+            17259732, 
+            "7d8dc1029593cb6da9b5057413d0b3b2"
+        ], 
+        "ext_packer_9.npk": [
+            617617200, 
+            "14368d3a241b8d552d0440c4ea5acc23"
+        ], 
+        "ext_packer_game_plays_9.npk": [
+            63582568, 
+            "e70d76cde2138c7b0510c03c6fca4a17"
+        ], 
+        "ext_packer_game_plays_5.npk": [
+            272801856, 
+            "afcbe35beeab2a68e0e6aecbcea4583c"
+        ], 
+        "ext_packer_game_plays_4.npk": [
+            83922480, 
+            "544a4c6dba27c7d3ca4bdc9ddeb1b1cc"
+        ], 
+        "ext_packer_sky_box_2_file_list": [
+            10901, 
+            "83d9bb75e6905993198de2d978103fe6"
+        ], 
+        "ext_packer_5.npk": [
+            286217516, 
+            "aac137a38c18ada3ba7a36bf4abd07c3"
+        ], 
+        "ext_packer_game_plays_16_file_list": [
+            1071507, 
+            "29492174620b5660c878c482767ef5b6"
+        ], 
+        "ext_packer_sky_box_2.npk": [
+            13900256, 
+            "da1cf3a5702598aca3b830a3531f9749"
+        ], 
+        "ext_packer_fashion_part_low_2_file_list": [
+            475252, 
+            "b9f484f2ad6795ff61a5e10b2b57a364"
+        ], 
+        "npkext_file_info_new": [
+            1908036, 
+            "da6db38a30fa80c146a817ce2807c857"
+        ], 
+        "ext_packer_fashion_part_high_2_file_list": [
+            165779, 
+            "40fcf303f99ddc9ed796d28f6075f93c"
+        ], 
+        "ext_packer_low_skin_9_file_list": [
+            416569, 
+            "b340c1dca57a8a5b8f983ee1b48180dc"
+        ], 
+        "ext_packer_low_skin_9.npk": [
+            206831144, 
+            "f5671975dca99d5685641132ae78b279"
+        ], 
+        "ext_packer_2.npk": [
+            264314752, 
+            "9a60a1d49063e749b93d0ae4146be763"
+        ], 
+        "ext_packer_low_skin_6_file_list": [
+            78010, 
+            "64e3ea348a60bd99d368036008010125"
+        ], 
+        "ext_packer_game_plays_20.npk": [
+            18739396, 
+            "275373ca7c4fe0f3e89c359218f03194"
+        ], 
+        "full_indices_ext_packer_sky_box_2": [
+            5390, 
+            "2d983acc101ef637064043628d00ec0f"
+        ], 
+        "ext_packer_fashion_part_high_1.npk": [
+            221846096, 
+            "f49dbee627fb25ec8647104833c2d875"
+        ], 
+        "full_indices_ext_packer_sky_box_1": [
+            14431, 
+            "b6947b1444702a83b297ff76894876c7"
+        ], 
+        "npkext_file_full_info": [
+            2239809, 
+            "10a7c269efae7da6fd694152e58b70d3"
+        ], 
+        "ext_packer_game_plays_12.npk": [
+            28565620, 
+            "bcd2e3f8b6a75937cda526ffe31b7c6a"
+        ], 
+        "ext_packer_low_skin_4.npk": [
+            47451104, 
+            "6edf8b62a0c6f1c926e254c0f12e5b04"
+        ], 
+        "ext_packer_sound_2_file_list": [
+            145828, 
+            "c924a98ffcb69c0ca9cd502739075870"
+        ], 
+        "ext_packer_low_skin_6.npk": [
+            48836172, 
+            "7b87a911802f5923a8c5d2fdb4dfad4e"
+        ], 
+        "full_indices_ext_packer_ui_img_1": [
+            1676048, 
+            "bb523e7e8aad81270e32af4dc7f0a9c2"
+        ], 
+        "npkext_file_info": [
+            1909459, 
+            "6b4895e7e892fde4852a1c518b56d0c1"
+        ], 
+        "ext_packer_low_skin_8.npk": [
+            130280672, 
+            "5124ad980036f3d08b7d93de2b5aec04"
+        ], 
+        "full_indices_ext_packer_game_plays_7": [
+            679985, 
+            "dfc9184ab540395f477b5a9119fa57f3"
+        ], 
+        "full_indices_ext_packer_game_plays_4": [
+            121099, 
+            "bc57fccaa07847690d771c857d6bc53f"
+        ], 
+        "full_indices_ext_packer_game_plays_20": [
+            62407, 
+            "1fe5d5e0bb519ef5027c1a8634d555c8"
+        ], 
+        "ext_packer_pet_high_1_file_list": [
+            60200, 
+            "96d229b2c078e2580bc484435af2811d"
+        ], 
+        "full_indices_ext_packer_game_plays_3": [
+            389587, 
+            "5eeae928b5e2663c334cd9b78f192ae4"
+        ], 
+        "ext_packer_skin_voice_3.npk": [
+            199627920, 
+            "74a1e37c899350872b3dd2f04482b167"
+        ], 
+        "ext_packer_face_high_1_file_list": [
+            124301, 
+            "5de1c78bce47d40fc605b91a1eb5fa0f"
+        ], 
+        "ext_packer_game_plays_17_file_list": [
+            1258127, 
+            "723225f983dc84beed9513b2dfa81d7f"
+        ], 
+        "full_indices_ext_packer_game_plays_8": [
+            9730, 
+            "f9b92713b1f8530d85f18b5c7c81b288"
+        ], 
+        "full_indices_ext_packer_game_plays_9": [
+            116942, 
+            "6948c4291cbb603ebd228d7aba68f337"
+        ], 
+        "ext_packer_sound_2.npk": [
+            898129880, 
+            "1cbc90d4449716707e3bd1b1f2b333ae"
+        ], 
+        "full_indices_ext_packer_accessory_2": [
+            670287, 
+            "4e86a3b4f7d1794b2c6162e5b987da4e"
+        ], 
+        "full_indices_ext_packer_accessory_1": [
+            393876, 
+            "0b26f92a418419ad5298daf293f93acf"
+        ], 
+        "ext_packer_story_book_9.npk": [
+            10297472, 
+            "1eac862ad4db253a634519306e345f58"
+        ], 
+        "ext_packer_game_plays_3.npk": [
+            359258668, 
+            "b2a1e216627c69d7ada0f6a15fa45bf3"
+        ], 
+        "ext_packer_ui_img_3_file_list": [
+            32341, 
+            "38bc2a6dce0b9f24de781b754752a337"
+        ], 
+        "full_indices_ext_packer_face_high_1": [
+            70884, 
+            "54d957eef4fd857ace309707870ff4e0"
+        ], 
+        "full_indices_ext_packer_low_skin_11": [
+            115364, 
+            "ef95b7a653dd35962eddfbaded9d83ee"
+        ], 
+        "ext_packer_official_city_1.npk": [
+            39776956, 
+            "5e096f405e944a0022fce12f1b476068"
+        ], 
+        "full_indices_ext_packer_ui_img_2": [
+            708935, 
+            "0336adf02176424b44f4cb068497c2df"
+        ], 
+        "full_indices_ext_packer_ui_img_3": [
+            14434, 
+            "3723e2e3651890933f37990850c8c009"
+        ], 
+        "ext_packer_ui_img_1_file_list": [
+            3114242, 
+            "5f965332a83755f27183b01de8f98733"
+        ], 
+        "ext_packer_story_book_7_file_list": [
+            57170, 
+            "090ed83147bd18503b2dbab200402004"
+        ], 
+        "ext_packer_4.npk": [
+            187941708, 
+            "afc6ba0829b1bc96d79a91f349a83c15"
+        ]
+    }, 
+    "filesext": {}, 
+    "npkext_version": "npkext_android_202609281954_4343784", 
+    "ppkext": {
+        "sub_skin_high.ppk.info": [
+            632216, 
+            "ddef22ff18bfc84fe67bbef0c2cf44dd"
+        ], 
+        "sub_common.ppk.map_bin": [
+            326383, 
+            "ebc5873d55dd941b9da120e13f2ca339"
+        ], 
+        "sub_skin_low.ppk.map": [
+            225539, 
+            "1668a64d7530bc513512750cbc748f4e"
+        ], 
+        "sub_part_low.ppk.map_bin": [
+            122069, 
+            "bc9651e1ce95a58b980db332ce90a120"
+        ], 
+        "sub_sky_box_file_storage": [
+            144370644, 
+            "12379c0224cd2092d393edc4acdf5277"
+        ], 
+        "sub_emoji_file_storage": [
+            188562857, 
+            "762b3cdc079ab413457abc54e68bca0a"
+        ], 
+        "sub_sky_box.ppk.info": [
+            14088, 
+            "db7d1acd6503db91b43fe79be073dec3"
+        ], 
+        "sub_common.wppk.info": [
+            823536, 
+            "a1ca3384824a96d60a9743ca1f186245"
+        ], 
+        "sub_pet_file_storage": [
+            46040154, 
+            "93bc489b2bdce54231282c8257ed63fb"
+        ], 
+        "sub_sky_box.ppk.map": [
+            9943, 
+            "1281b0165c7ddfeeffd35b3f3ddeb370"
+        ], 
+        "sub_emoji.wppk.info": [
+            113877, 
+            "9696ff27a3bf59e78d083976337149a5"
+        ], 
+        "sub_pet_high.wppk.info_bin": [
+            27041, 
+            "1f1f0296643c77972d3edd551c92d24d"
+        ], 
+        "sub_part_low.ppk.map": [
+            97457, 
+            "c0c2899abafbbda8e78e67216cbc3428"
+        ], 
+        "sub_skin_file_storage": [
+            3977823258, 
+            "9005df9c3fcb5fb952927936ee6e6908"
+        ], 
+        "sub_part_high.wppk.info_bin": [
+            124886, 
+            "e510c560b959322284ef40a64b16668d"
+        ], 
+        "sub_pet_high.ppk.map_bin": [
+            13236, 
+            "2750a6492757ec6b79388931069df1d5"
+        ], 
+        "sub_part_low.wppk.info_bin": [
+            372731, 
+            "42f96e47f07bf1d5b7f676e7a42f5700"
+        ], 
+        "sub_sky_box.ppk.map_bin": [
+            18718, 
+            "11365244374826283d9d8d658493fe3e"
+        ], 
+        "sub_pet_high.wppk.info": [
+            17073, 
+            "95ad5bf803796902c046d698043bd512"
+        ], 
+        "sub_part_low.wppk.info": [
+            240677, 
+            "e9fb7f922ff80519d84f5784667be010"
+        ], 
+        "sub_common_file_storage": [
+            1036914905, 
+            "8777491f99c10576efd9850a71b0ae37"
+        ], 
+        "sub_part_high.wppk.info": [
+            82899, 
+            "9e5fff3e8997faa38251fffcc90915d9"
+        ], 
+        "sub_common.ppk.info": [
+            1050461, 
+            "c087feec2325aa81d3a8973000568053"
+        ], 
+        "sub_pet_high.ppk.info": [
+            23430, 
+            "23e568bf52153852789e2a551c0646ec"
+        ], 
+        "sub_common.ppk.map": [
+            306520, 
+            "4ff4f8461b253d8c290e9e962e3dfc83"
+        ], 
+        "sub_sound_file_storage": [
+            1076447453, 
+            "7211b3fd5d4550423b7c6f310059810e"
+        ], 
+        "sub_skin_high.ppk.map": [
+            196519, 
+            "42e33d6010d81bb4e00ff239b24ad001"
+        ], 
+        "sub_skin_low.ppk.info": [
+            759141, 
+            "18e1706df307fa90d95505be37ed6fad"
+        ], 
+        "sub_sound.wppk.info": [
+            61583, 
+            "c575648ccfcb87fb94ecfe52f28e78e2"
+        ], 
+        "sub_emoji.ppk.map_bin": [
+            83603, 
+            "84eda8a8b16d7ddbe0519442f017bf2b"
+        ], 
+        "sub_skin_voice.wppk.info_bin": [
+            62099, 
+            "788fb5213aafeedd7953cec6e639b55a"
+        ], 
+        "sub_sky_box.wppk.info_bin": [
+            18680, 
+            "b89ddfec1b07417c4774fdb3d5e11421"
+        ], 
+        "sub_skin_high.wppk.info": [
+            483052, 
+            "200a57190446651c9be6f65eae4629f3"
+        ], 
+        "sub_skin_voice.ppk.map_bin": [
+            57233, 
+            "10b906dd5ea5c5bc6cc5722c4c7c660f"
+        ], 
+        "sub_skin_voice_file_storage": [
+            561372568, 
+            "4c289c24107380de32a7b36c60e85718"
+        ], 
+        "sub_sound.ppk.map": [
+            30191, 
+            "5f2386601f81d28976275f67073c0116"
+        ], 
+        "sub_editor_props.wppk.info_bin": [
+            265644, 
+            "0c69d679d807ef237133efe5e0c73be2"
+        ], 
+        "sub_part_file_storage": [
+            733796895, 
+            "0fd495c9210543c8f64367ca5c256f7c"
+        ], 
+        "sub_skin_voice.wppk.info": [
+            40167, 
+            "5281def17f9196d29ac6c5ff305531f1"
+        ], 
+        "sub_part_high.ppk.map": [
+            50629, 
+            "2a0e12db6827a598f7c9a11929b70ac6"
+        ], 
+        "sub_skin_voice.ppk.info": [
+            61010, 
+            "b975e03ef242f6fffeb9109ed1ee6d98"
+        ], 
+        "sub_emoji.ppk.info": [
+            152554, 
+            "9c8ac40e529ac051dc8e44652f7a94c7"
+        ], 
+        "sub_skin_low.wppk.info": [
+            596099, 
+            "1caa1b3e4c164b247f89d04b0b85bf90"
+        ], 
+        "sub_skin_low.ppk.map_bin": [
+            260455, 
+            "7b9a4d3c536f9ae74b7cad4e0894551f"
+        ], 
+        "sub_sound.ppk.info": [
+            91898, 
+            "f7198f883543a1f430c16f93090777d4"
+        ], 
+        "sub_sound.ppk.map_bin": [
+            59716, 
+            "82f353624097b07f9eb3782eb959dd80"
+        ], 
+        "sub_skin_voice.ppk.map": [
+            29810, 
+            "48a8fa334099fea430c250aa82450d91"
+        ], 
+        "sub_part_low.ppk.info": [
+            295279, 
+            "d0123dcf92127b4c056bd4b5d907355e"
+        ], 
+        "sub_part_high.ppk.info": [
+            104895, 
+            "82c6790271594793bcbb98697ca43a49"
+        ], 
+        "sub_skin_high.ppk.map_bin": [
+            229184, 
+            "e1aef698f8efb99bc4ab14c9827d91b0"
+        ], 
+        "sub_pet_high.ppk.map": [
+            8402, 
+            "13c64d1445c02beb64fc187ae08fb018"
+        ], 
+        "sub_skin_low.wppk.info_bin": [
+            921920, 
+            "43dbec1dec98dc64c8b2e115b3cf296d"
+        ], 
+        "sub_sky_box.wppk.info": [
+            12002, 
+            "16c42e933c39da58b84788f57db76555"
+        ], 
+        "sub_emoji.wppk.info_bin": [
+            169874, 
+            "ffcac4462e694f4bc148ee4e894d961e"
+        ], 
+        "sub_editor_props.wppk.info": [
+            171041, 
+            "f27e0d024c1fdf3c144ef97004060692"
+        ], 
+        "sub_common.wppk.info_bin": [
+            1237659, 
+            "64ee1b2f072e1de61ae62fa24d68fb8d"
+        ], 
+        "sub_emoji.ppk.map": [
+            59365, 
+            "73b1f4c37cb6ba2e0083bf31bd7211ad"
+        ], 
+        "sub_editor_props.ppk.info": [
+            215566, 
+            "6d27a39f3077ef9cbaa6d64bc3ad47c2"
+        ], 
+        "sub_part_high.ppk.map_bin": [
+            79257, 
+            "f9fdf0d6c7f0239ec4502520bc964b42"
+        ], 
+        "sub_sound.wppk.info_bin": [
+            94740, 
+            "d35cfcaf14edd8d0a8c7dbd6f281c563"
+        ], 
+        "sub_skin_high.wppk.info_bin": [
+            744159, 
+            "b21ebfdf72aa78ee7d93e8dc67205e21"
+        ]
+    }, 
+    "npkext_gray": [
+        {
+            "ext_packer_shader_cache_gray_1": [
+                {}, 
+                {
+                    "sc_v": 4343517, 
+                    "sc_gray_v": 4341651
+                }
+            ]
+        }
+    ], 
+    "update_in_game_npkext_list": [
+        "ext_packer_1", 
+        "ext_packer_10", 
+        "ext_packer_11", 
+        "ext_packer_2", 
+        "ext_packer_3", 
+        "ext_packer_4", 
+        "ext_packer_5", 
+        "ext_packer_6", 
+        "ext_packer_8", 
+        "ext_packer_9", 
+        "ext_packer_fashion_part_high_1", 
+        "ext_packer_fashion_part_high_2", 
+        "ext_packer_pet_high_1", 
+        "ext_packer_skin_voice_1", 
+        "ext_packer_skin_voice_2", 
+        "ext_packer_skin_voice_3", 
+        "ext_packer_sound_1"
+    ], 
+    "can_clean_before_patch_npkext_list": [
+        "ext_packer_1", 
+        "ext_packer_10", 
+        "ext_packer_11", 
+        "ext_packer_2", 
+        "ext_packer_3", 
+        "ext_packer_4", 
+        "ext_packer_5", 
+        "ext_packer_6", 
+        "ext_packer_8", 
+        "ext_packer_9", 
+        "ext_packer_low_skin_1", 
+        "ext_packer_low_skin_10", 
+        "ext_packer_low_skin_11", 
+        "ext_packer_low_skin_2", 
+        "ext_packer_low_skin_3", 
+        "ext_packer_low_skin_4", 
+        "ext_packer_low_skin_5", 
+        "ext_packer_low_skin_6", 
+        "ext_packer_low_skin_8", 
+        "ext_packer_low_skin_9", 
+        "ext_packer_pet_high_1", 
+        "ext_packer_skin_voice_2", 
+        "ext_packer_skin_voice_3", 
+        "ext_packer_sky_box_2", 
+        "ext_packer_sound_1", 
+        "ext_packer_sound_2", 
+        "ext_packer_story_book_1", 
+        "ext_packer_story_book_10", 
+        "ext_packer_story_book_2", 
+        "ext_packer_story_book_3", 
+        "ext_packer_story_book_4", 
+        "ext_packer_story_book_5", 
+        "ext_packer_story_book_6", 
+        "ext_packer_story_book_7", 
+        "ext_packer_story_book_8", 
+        "ext_packer_story_book_9"
+    ], 
+    "npkext_optional_list_info": [
+        [
+            "ext_packer_pet_high_1", 
+            "150"
+        ], 
+        [
+            "ext_packer_pet_low_1", 
+            "150"
+        ], 
+        [
+            "ext_packer_skin_voice_2", 
+            "174"
+        ], 
+        [
+            "ext_packer_skin_voice_3", 
+            "174"
+        ], 
+        [
+            "ext_packer_game_plays_5", 
+            "207"
+        ], 
+        [
+            "ext_packer_game_plays_7", 
+            "219"
+        ], 
+        [
+            "ext_packer_shader_cache_new_1", 
+            "263"
+        ], 
+        [
+            "ext_packer_game_plays_12", 
+            "274"
+        ], 
+        [
+            "ext_packer_game_plays_14", 
+            "280"
+        ], 
+        [
+            "ext_packer_game_plays_15", 
+            "292"
+        ], 
+        [
+            "ext_packer_game_plays_16", 
+            "291"
+        ], 
+        [
+            "ext_packer_game_plays_17", 
+            "298"
+        ]
+    ], 
+    "npk_full_info_bin": [
+        [
+            "ext_packer_face_high_1", 
+            "ext_packer_game_plays_1", 
+            "ext_packer_game_plays_14", 
+            "ext_packer_game_plays_15", 
+            "ext_packer_game_plays_16", 
+            "ext_packer_game_plays_17", 
+            "ext_packer_game_plays_3", 
+            "ext_packer_game_plays_4", 
+            "ext_packer_game_plays_5", 
+            "ext_packer_game_plays_7", 
+            "ext_packer_game_plays_8", 
+            "ext_packer_game_plays_9", 
+            "ext_packer_pet_low_1", 
+            "ext_packer_story_book_1", 
+            "ext_packer_story_book_10", 
+            "ext_packer_story_book_2", 
+            "ext_packer_story_book_3", 
+            "ext_packer_story_book_4", 
+            "ext_packer_story_book_5", 
+            "ext_packer_story_book_6", 
+            "ext_packer_story_book_7", 
+            "ext_packer_story_book_8", 
+            "ext_packer_story_book_9", 
+            "ext_packer_ui_img_1", 
+            "ext_packer_ui_img_2", 
+            "ext_packer_ui_img_3"
+        ], 
+        [
+            [
+                3260964, 
+                "26ae8612cbc71ba632e79dbb454b75bd", 
+                2650810, 
+                "0d7a790e454d47d17691b13f0c6832a9"
+            ], 
+            [
+                3260968, 
+                "c9da43526e5d981885bf7b3617be5266", 
+                2623904, 
+                "433fe38c235d1496e396a16d64ea4aa4"
+            ], 
+            [
+                4194720, 
+                "872800d501fbfd4215251a83ae6a3f14", 
+                3072591, 
+                "cfc04a271df5d1723c54de81e8e19f39"
+            ]
+        ]
+    ], 
+    "game_play_update_info": {
+        "netease.douyincloudgame_free_dev": {
+            "npk_names": []
+        }, 
+        "netease.douyinminigame_free_dev": {
+            "npk_names": []
+        }, 
+        "other": {
+            "npk_names": [
+                "ext_packer_pet_low_1", 
+                "ext_packer_game_plays_1", 
+                "ext_packer_game_plays_9", 
+                "ext_packer_game_plays_4", 
+                "ext_packer_game_plays_7", 
+                "ext_packer_game_plays_3", 
+                "ext_packer_game_plays_15", 
+                "ext_packer_game_plays_17"
+            ], 
+            "gray_ratio": 1.0
+        }
+    }, 
+    "channels": {
+        "toutiao_sdk": {
+            "url": "https://adl.netease.com/d/g/party/c/qg_toutiao", 
+            "tips": "", 
+            "max_version": "1.0.275"
+        }, 
+        "nearme_vivo": {
+            "url": "https://adl.netease.com/d/g/party/c/qg_vivo", 
+            "tips": "", 
+            "max_version": "1.0.297"
+        }, 
+        "honor_sdk": {
+            "url": "https://adl.netease.com/d/g/party/c/qg_honor", 
+            "tips": "", 
+            "max_version": "1.0.268"
+        }, 
+        "netease.wyzymnqsd_cps_dev": {
+            "url": "https://adl.netease.com/d/g/party/c/mumu_cps?type=android&direct=1", 
+            "tips": "", 
+            "max_version": "1.0.291"
+        }, 
+        "kuaishou_new": {
+            "url": "https://adl.netease.com/d/g/party/c/qg_ks", 
+            "tips": "", 
+            "max_version": "1.0.297"
+        }, 
+        "myapp": {
+            "url": "https://adl.netease.com/d/g/party/c/qg_myapp", 
+            "tips": "", 
+            "max_version": "1.0.297"
+        }, 
+        "xiaomi_app": {
+            "url": "https://adl.netease.com/d/g/party/c/qg_xiaomi", 
+            "tips": "", 
+            "max_version": "1.0.99999"
+        }, 
+        "lenovo_open": {
+            "url": "https://adl.netease.com/d/g/party/c/gq_lenovo", 
+            "tips": "", 
+            "max_version": "1.0.99999"
+        }, 
+        "netease.momoyu_cps_dev": {
+            "url": "", 
+            "tips": "", 
+            "max_version": "1.0.99999"
+        }, 
+        "huawei": {
+            "url": "https://appgallery.huawei.com/app/C103596439", 
+            "tips": "", 
+            "max_version": "1.0.297"
+        }, 
+        "netease.zeekr_cps_dev": {
+            "url": "https://adl.netease.com/d/g/party/c/qg_zeekr", 
+            "tips": "", 
+            "max_version": "1.0.297"
+        }, 
+        "sumsung_cps_dev": {
+            "url": "https://adl.netease.com/d/g/party/c/gq_sumsung", 
+            "tips": "", 
+            "max_version": "1.0.275"
+        }, 
+        "netease.hykb_cps_dev": {
+            "url": "https://adl.netease.com/d/g/party/c/hykb", 
+            "tips": "", 
+            "max_version": "1.0.297"
+        }, 
+        "4399com": {
+            "url": "https://adl.netease.com/d/g/party/c/qg_4399", 
+            "tips": "", 
+            "max_version": "1.0.99999"
+        }, 
+        "233leyuan": {
+            "url": "https://adl.netease.com/d/g/party/c/233channel", 
+            "tips": "", 
+            "max_version": "1.0.297"
+        }, 
+        "bilibili_sdk": {
+            "url": "https://adl.netease.com/d/g/party/c/qg_bilibili", 
+            "tips": "", 
+            "max_version": "1.0.297"
+        }, 
+        "netease.taptap_cps_dev": {
+            "url": "https://adl.netease.com/d/g/party/c/qg_taptap", 
+            "tips": "", 
+            "max_version": "1.0.297"
+        }, 
+        "iaround": {
+            "url": "", 
+            "tips": "", 
+            "max_version": "1.0.99999"
+        }, 
+        "app_store": {
+            "url": "https://apps.apple.com/cn/app/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/id1544884479", 
+            "tips": "", 
+            "max_version": "1.0.99999"
+        }, 
+        "netease.douyinch_cps_dev": {
+            "url": "https://adl.netease.com/d/g/party/c/douyinshuangtong", 
+            "tips": "", 
+            "max_version": "1.0.275"
+        }, 
+        "uc_platform": {
+            "url": "https://adl.netease.com/d/g/party/c/qg_uc", 
+            "tips": "", 
+            "max_version": "1.0.99999"
+        }, 
+        "netease.wyds21_cps_dev": {
+            "url": "https://xm.gameyw.netease.com/ds/cps/u5/netease.wyds25_cps_dev", 
+            "tips": "", 
+            "max_version": "1.0.297"
+        }, 
+        "netease.mumumnqmacos_cps_dev": {
+            "url": "https://adl.netease.com/d/g/party/c/macmumu", 
+            "tips": "", 
+            "max_version": "1.0.291"
+        }, 
+        "netease": {
+            "url": "https://adl.netease.com/d/g/party/c/gw?type=android", 
+            "tips": "", 
+            "max_version": "1.0.297"
+        }, 
+        "oppo": {
+            "url": "https://adl.netease.com/d/g/party/c/qg_oppo", 
+            "tips": "", 
+            "max_version": "1.0.278"
+        }
+    }, 
+    "path_hash_file": [
+        3286392, 
+        1727461191
+    ]
+}
